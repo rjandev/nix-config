@@ -7,6 +7,8 @@
 {
   imports =
     [ # Include the results of the hardware scan.
+      ./user-packages.nix
+      ./system-packages.nix
       ./hardware-configuration.nix
       ./home-manager-configuration.nix
       ./1password-configuration.nix
@@ -89,10 +91,6 @@
     isNormalUser = true;
     description = "Jan";
     extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [
-      firefox
-    #  thunderbird
-    ];
   };
 
   # Allow unfree packages
@@ -100,11 +98,6 @@
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
-  environment.systemPackages = with pkgs; [
-    vim
-    git
-  #  wget
-  ];
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.

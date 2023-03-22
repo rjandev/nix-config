@@ -2,6 +2,6 @@
 
 {
    users.users.jan.packages = with pkgs; [
-      brave
+     # prefer system packages to avoid conflicts etc.
     ];
 }

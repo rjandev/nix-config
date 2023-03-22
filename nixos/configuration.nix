@@ -8,9 +8,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      # TODO move home manager config to separate file
-      inputs.home-manager.nixosModules.home-manager
-      #./home-manager-configuration.nix
+      ./home-manager-configuration.nix
     ];
 
   # Bootloader.
@@ -133,14 +131,6 @@
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "22.11"; # Did you read the comment?
-  
-   home-manager = {
-    extraSpecialArgs = { inherit inputs outputs; };
-    users = {
-      # Import your home-manager configuration
-      jan = import ../home-manager/home.nix;
-    };
-  };
 
 }
 

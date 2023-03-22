@@ -6,5 +6,6 @@
     git
     brave
     jetbrains.idea-ultimate
+    alacritty
   ];
 }

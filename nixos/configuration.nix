@@ -12,7 +12,9 @@
       ./hardware-configuration.nix
       ./home-manager-configuration.nix
       ./1password-configuration.nix
-      ./gnome.nix
+      #./gnome.nix
+      ./i3.nix
+      ./default-envs.nix
     ];
 
   # Bootloader.

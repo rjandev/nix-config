@@ -9,6 +9,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./home-manager-configuration.nix
+      ./1password-configuration.nix
     ];
 
   # Bootloader.
@@ -102,7 +103,6 @@
   environment.systemPackages = with pkgs; [
     vim
     git
-    _1password-gui
   #  wget
   ];
 

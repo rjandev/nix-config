@@ -36,6 +36,9 @@ in {
       # nvidia prime (used to use internal graphics to connect monitor)
       #exec_always --no-startup-id "xrandr --setprovideroutputsource modesetting NVIDIA-0 && xrandr --auto && xrandr --output DP-1 --refresh 144 && xrandr --output DVI-I-1 --right-of DP-1 && xrandr --output VGA-1-1 --left-of DP-1 --rotation left"
 
+      # set screen resolution
+      exec_always --no-startup-id "xrandr -d :0 -s 1920x1080"
+
       # background image
       # exec_always --no-startup-id "nitrogen --restore"
 

@@ -7,6 +7,7 @@
 {
   imports =
     [ # Include the results of the hardware scan.
+      ./default-envs.nix
       ./1password-configuration.nix
       ./pam-keyring.nix
       ./user-packages.nix
@@ -15,7 +16,6 @@
       ./home-manager-configuration.nix
       #./gnome.nix
       ./i3.nix
-      ./default-envs.nix
     ];
 
   # Bootloader.

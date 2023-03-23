@@ -2,6 +2,7 @@
 
 let
   mod = "Mod4";
+  home = pkgs.home-manager;
 in {
 
   xsession = {
@@ -12,59 +13,9 @@ in {
     '';
   };
 
-  xsession.windowManager.i3 = {
-    enable = true;
-#    config = {
-#      modifier = mod;
-#
-#      # fonts = ["JetBrains Mono, DejaVu Sans Mono, FontAwesome 6"];
-#
-#      keybindings = lib.mkOptionDefault {
-#
-#        # media controls
-#        "XF86AudioRaiseVolume" = "exec --no-startup-id amixer -D pulse sset Master 5%+ && killall -SIGUSR1 i3status";
-#        "XF86AudioLowerVolume" = "exec --no-startup-id amixer -D pulse sset Master 5%- && killall -SIGUSR1 i3status";
-#        "XF86AudioMute" = "exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && killall -SIGUSR1 i3status";
-#        "XF86AudioMicMute" = "exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && killall -SIGUSR1 i3status";
-#        "XF86AudioPlay" = "exec playerctl play-pause";
-#        "XF86AudioPause" = "exec playerctl pause";
-#        "XF86AudioNext" = "exec playerctl next";
-#        "XF86AudioPrev" = "exec playerctl previous";
-#
-#        # terminal
-#        "${mod}+Return" = "exec $TERMINAL";
-#
-#        # launcher
-#        "${mod}+d" = "exec --no-startup-id $LAUNCHER #j4-dmenu-desktop";
-#        "${mod}+p" = "exec --no-startup-id $LAUNCHER";
-#
-#        # Focus
-#        "${mod}+h" = "focus left";
-#        "${mod}+j" = "focus down";
-#        "${mod}+k" = "focus up";
-#        "${mod}+l" = "focus right";
-#
-#        # Move
-#        "${mod}+Shift+h" = "move left";
-#        "${mod}+Shift+j" = "move down";
-#        "${mod}+Shift+k" = "move up";
-#        "${mod}+Shift+l" = "move right";
-#
-#        # split in horizontal orientation
-#        #"${mod}+h" = "split h";
-#
-#        # split in vertical orientation
-#        "${mod}+v" = "split v";
-#      };
-#
-#      bars = [
-#        {
-#          position = "top";
-#          statusCommand = "${pkgs.i3status-rust}/bin/i3status-rs ${./i3status-rust.toml}";
-#        }
-#      ];
-#    };
-    extraConfig = ''
+  # install i3 
+  home.packages = [ pkgs.i3-gaps ];
+  home.file.".config/i3/config".text = ''
       set $mod Mod4
 
       # Font for window titles. Will also be used by the bar unless a different font
@@ -86,11 +37,11 @@ in {
       #exec_always --no-startup-id "xrandr --setprovideroutputsource modesetting NVIDIA-0 && xrandr --auto && xrandr --output DP-1 --refresh 144 && xrandr --output DVI-I-1 --right-of DP-1 && xrandr --output VGA-1-1 --left-of DP-1 --rotation left"
 
       # background image
-      exec_always --no-startup-id "nitrogen --restore"
+      # exec_always --no-startup-id "nitrogen --restore"
 
       # NetworkManager is the most popular way to manage wireless networks on Linux,
       # and nm-applet is a desktop environment-independent system tray GUI for it.
-      exec --no-startup-id nm-applet
+      # exec --no-startup-id nm-applet
 
       # Use pactl to adjust volume in PulseAudio.
       set $refresh_i3status killall -SIGUSR1 i3status
@@ -107,13 +58,13 @@ in {
       floating_modifier $mod
 
       # start a terminal
-      bindsym $mod+Return exec $TERMINAL #urxvt -name Terminal -fn "xft:SauceCodePro Nerd Font Mono:pixelsize=14"
+      bindsym $mod+Return exec $TERMINAL
 
       # kill focused window
       bindsym $mod+x kill
 
       # start dmenu (a program launcher)
-      bindsym $mod+d exec --no-startup-id $LAUNCHER #j4-dmenu-desktop
+      bindsym $mod+d exec --no-startup-id $LAUNCHER
       bindsym $mod+p exec --no-startup-id $LAUNCHER
 
       # change focus
@@ -229,7 +180,7 @@ in {
       # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
       bindsym $mod+q restart
       # exit i3 (logs you out of your X session)
-      bindsym $mod+Shift+q exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+      # bindsym $mod+Shift+q exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
       # resize window (you can also use the mouse for that)
       mode "resize" {
@@ -272,7 +223,7 @@ in {
               status_command i3blocks
               position top
       	i3bar_command i3bar -t
-      	font pango: SauceCodePro Nerd Font Black 10
+      	font pango: Jetbrains mono # SauceCodePro Nerd Font Black 10
       	colors
       	{
           #                   Border Background Text
@@ -321,7 +272,6 @@ in {
       for_window [class="jetbrains-toolbox"] floating enable
 
       # betterlockscreen / i3lock
-      bindsym $mod+l exec betterlockscreen -l dim
+      #bindsym $mod+l exec betterlockscreen -l dim
     '';
-  };
 }

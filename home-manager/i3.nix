@@ -3,6 +3,26 @@
 let
   mod = "Mod4";
 in {
+
+  # necessary for gnome keyring to work
+  
+#  services = {
+#    gnome-keyring = {
+#      enable = true;
+#      components = ["pkcs11" "secrets" "ssh" ];
+#    };
+#  };
+
+  xsession = {
+    enable = true;
+    initExtra = ''
+      dbus-update-activation-environment --all
+      #gnome-keyring-daemon --start --components=secrets
+      #eval $(gnome-keyring-daemon --start --components=pkcs11,ssh,secrets)
+      export SSH_AUTH_SOCK
+    '';
+  };
+
   xsession.windowManager.i3 = {
     enable = true;
     config = {

@@ -8,5 +8,6 @@
     jetbrains.idea-ultimate
     alacritty
     jetbrains-mono
+    polkit_gnome
   ];
 }

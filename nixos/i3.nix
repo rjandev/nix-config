@@ -25,17 +25,25 @@
         i3lock
         #i3blocks #if you are planning on using i3blocks over i3status
       ];
+      #extraSessionCommands = ''
+      #  eval $(gnome-keyring-daemon --daemonize)
+      #  export SSH_AUTH_SOCK
+      #'';
     };
   };
 
   # necessary for gnome keyring to work 
-  systemd.user.services.dbus-keyring = {
-    script = ''
-      dbus-update-activation-environment --all;
-      gnome-keyring-daemon --start --components=secrets;
-    '';
-    wantedBy = [ "graphical-session.target" ];
-    partOf = [ "graphical-session.target" ];
-  }; 
+  #xsession.profileExtra = ''
+  #  eval $(${pkgs.gnome.gnome-keyring}/bin/gnome-keyring-daemon --daemonize --components=ssh, secrets)
+  #  export SSH_AUTH_SOCK
+  #'';
+  #systemd.user.services.dbus-keyring = {
+  #  script = ''
+  #    dbus-update-activation-environment --all;
+  #    gnome-keyring-daemon --start --components=secrets;
+  #  '';
+  #  wantedBy = [ "graphical-session.target" ];
+  #  partOf = [ "graphical-session.target" ];
+  #}; 
 
 }

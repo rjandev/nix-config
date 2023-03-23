@@ -7,18 +7,16 @@
 {
   imports =
     [ # Include the results of the hardware scan.
+      ./1password-configuration.nix
+      ./pam-keyring.nix
       ./user-packages.nix
       ./system-packages.nix
       ./hardware-configuration.nix
       ./home-manager-configuration.nix
-      ./1password-configuration.nix
       #./gnome.nix
       ./i3.nix
       ./default-envs.nix
     ];
-
-  # enable gnome keyring
-  services.gnome.gnome-keyring.enable = true;
 
   # Bootloader.
   boot.loader.grub.enable = true;

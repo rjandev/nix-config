@@ -5,6 +5,7 @@
 
   services.xserver = {
     enable = true;
+    autorun = true;
 
     desktopManager = {
       xterm.enable = false;
@@ -12,6 +13,8 @@
 
     displayManager = {
         defaultSession = "none+i3";
+        startx.enable = true;
+        lightdm.enable = true;
     };
 
     windowManager.i3 = {

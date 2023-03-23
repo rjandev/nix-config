@@ -7,5 +7,6 @@
     brave
     jetbrains.idea-ultimate
     alacritty
+    jetbrains-mono
   ];
 }

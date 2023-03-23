@@ -42,19 +42,19 @@ in {
         "${mod}+Shift+l" = "move right";
 
         # split in horizontal orientation
-        "${mod}+h" = "split h";
+        #"${mod}+h" = "split h";
 
         # split in vertical orientation
         "${mod}+v" = "split v";
 
         # My multi monitor setup
-        "${mod}+m" = "move workspace to output DP-2";
-        "${mod}+Shift+m" = "move workspace to output DP-5";
+        #"${mod}+m" = "move workspace to output DP-2";
+        #"${mod}+Shift+m" = "move workspace to output DP-5";
       };
 
       bars = [
         {
-          position = "bottom";
+          position = "top";
           statusCommand = "${pkgs.i3status-rust}/bin/i3status-rs ${./i3status-rust.toml}";
         }
       ];

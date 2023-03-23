@@ -27,4 +27,15 @@
       ];
     };
   };
+
+  # necessary for gnome keyring to work 
+  systemd.user.services.dbus-keyring = {
+    script = ''
+      dbus-update-activation-environment --all;
+      gnome-keyring-daemon --start --components=secrets;
+    '';
+    wantedBy = [ "graphical-session.target" ];
+    partOf = [ "graphical-session.target" ];
+  }; 
+
 }

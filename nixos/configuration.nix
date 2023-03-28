@@ -19,9 +19,22 @@
     ];
 
   # Bootloader.
-  boot.loader.grub.enable = true;
-  boot.loader.grub.device = "/dev/vda";
-  boot.loader.grub.useOSProber = true;
+  boot.loader.systemd-boot.enable = true;
+  boot.loader.efi.canTouchEfiVariables = true;
+  boot.loader.efi.efiSysMountPoint = "/boot/efi";
+  # boot.loader.grub.enable = true;
+  # boot.loader.grub.device = "/dev/vda";
+  # boot.loader.grub.useOSProber = true;
+  
+  # setup keyfile
+  boot.initrd.secrets = {
+    "/crypto_keyfile.bin" = null;
+  };
+
+  # enable swap on luks (TODO replace UUIDs with label)
+  boot.initrd.luks.devices."luks-ad14a4a5-8740-4828-9b08-d80466e17192".device = "/dev/disk/by-uuid/ad14a4a5-8740-4828-9b08-d80466e17192";
+  boot.initrd.luks.devices."luks-ad14a4a5-8740-4828-9b08-d80466e17192".keyFile = "/crypto_keyfile.bin";
+  
 
   networking.hostName = "jan-nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.

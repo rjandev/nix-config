@@ -16,6 +16,7 @@
       ./home-manager-configuration.nix
       #./gnome.nix
       ./i3.nix
+      ./virtualisation.nix
     ];
 
   # Bootloader.

@@ -15,6 +15,10 @@
         defaultSession = "none+i3";
         startx.enable = true;
         lightdm.enable = true;
+        autoLogin = {
+          enable = true;
+          user = "jan";
+        };
     };
 
     windowManager.i3 = {

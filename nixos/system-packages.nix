@@ -5,7 +5,7 @@
     vim
     git
     brave
-    jetbrains.idea-ultimate
+    unstable.jetbrains.idea-ultimate
     alacritty
     jetbrains-mono
     polkit_gnome

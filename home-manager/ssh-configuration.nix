@@ -6,6 +6,4 @@ let
     IdentityAgent ~/.1password/agent.sock
   '';
 
-in {
-  home.file.".ssh/config".text = sshConfig;
-}
+in { home.file.".ssh/config".text = sshConfig; }

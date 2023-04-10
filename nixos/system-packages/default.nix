@@ -5,5 +5,11 @@
     ./development.nix
     ./nixos.nix
   ];
-  environment.systemPackages = with pkgs; [ vim brave alacritty polkit_gnome ];
+  environment.systemPackages = with pkgs; [
+    vim
+    brave
+    alacritty
+    polkit_gnome
+    cinnamon.nemo
+  ];
 }

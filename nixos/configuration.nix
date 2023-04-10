@@ -19,6 +19,7 @@
     ./virtualisation.nix
     ./gpg.nix
     ./ledger-live.nix
+    ./nvidia.nix
   ];
 
   # Bootloader.

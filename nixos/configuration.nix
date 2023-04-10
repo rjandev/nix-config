@@ -18,6 +18,7 @@
     ./i3.nix
     ./virtualisation.nix
     ./gpg.nix
+    ./ledger-live.nix
   ];
 
   # Bootloader.

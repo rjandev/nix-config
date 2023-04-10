@@ -1,13 +1,9 @@
 { config, pkgs, ... }:
 
 {
-   environment.systemPackages = with pkgs; [
-    vim
+  environment.systemPackages = with pkgs; [
     git
-    brave
     unstable.jetbrains.idea-ultimate
-    alacritty
     jetbrains-mono
-    polkit_gnome
   ];
 }

@@ -11,7 +11,7 @@
       ./1password-configuration.nix
       ./pam-keyring.nix
       ./user-packages.nix
-      ./system-packages.nix
+      ./system-packages
       ./hardware-configuration.nix
       ./home-manager-configuration.nix
       #./gnome.nix

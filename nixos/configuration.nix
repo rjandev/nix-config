@@ -17,6 +17,7 @@
     #./gnome.nix
     ./i3.nix
     ./virtualisation.nix
+    ./gpg.nix
   ];
 
   # Bootloader.

@@ -5,6 +5,7 @@
     git
     unstable.jetbrains.idea-ultimate
     jetbrains-mono
+    unstable.kotlin
   ];
 
   programs.java = { enable = true; };

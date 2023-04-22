@@ -6,4 +6,7 @@
     unstable.jetbrains.idea-ultimate
     jetbrains-mono
   ];
+
+  programs.java = { enable = true; };
+
 }

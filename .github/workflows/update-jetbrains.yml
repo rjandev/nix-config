@@ -12,3 +12,32 @@ jobs:
         with:
           nix_path: nixpkgs=channel:nixos-unstable
       - run: ./nixos/system-packages/jetbrains/update.py
+
+      # check if versions.json has changed
+      - name: Check for File Changes
+        id: version_file_changed
+        shell: bash
+        run: |
+          GIT_STATUS="$(git status --porcelain ./nixos/system-packages/jetbrains/versions.json)"
+          
+          echo "::set-output name=git_status::$GIT_STATUS"
+
+      # Create pull request
+      - name: Create Pull Request
+        if: ${{ steps.version_file_changed.outputs.git_status != '' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH="jetbrains-update"
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git checkout -b $BRANCH
+          
+          git add ./nixos/system-packages/jetbrains/versions.json
+          git commit -m "update jetbrains product versions"
+          git push --set-upstream origin $BRANCH
+          gh pr create \
+            --title "Update Jetbrains Product Versions" \
+            --body "Current pull request contains the updated versions.json for jetbrains products." \
+            --base main \
+            --head $BRANCH

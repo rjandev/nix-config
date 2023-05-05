@@ -3,7 +3,7 @@
   "extends": [
     "config:base"
   ],
-  "dependencyDashboardFooter": "[Dashboard](https://app.renovatebot.com/dashboard#github/rjandev/nix-config)",
+  "dependencyDashboardHeader": "This issue lists Renovate updates and detected dependencies. Read the [Dependency Dashboard](https://docs.renovatebot.com/key-concepts/dashboard/) docs to learn more.\nSee also: [Dashboard](https://app.renovatebot.com/dashboard#github/rjandev/nix-config)",
   "platformAutomerge": true,
   "packageRules": [
     {

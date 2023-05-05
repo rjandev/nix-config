@@ -65,5 +65,14 @@
     enable = true;
     userName = "Jan Riedel";
     userEmail = "git@rjan.dev";
+    signing = {
+      key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILwY8dEpcZTTKSHMBHVT2PIx16Q22VRvEH7Z8SxitO/W";
+      signByDefault = true;
+    };
+    extraConfig = {
+      gpg.format = "ssh";
+      "gpg \"ssh\"".program = "${pkgs._1password-gui}/share/1password/op-ssh-sign";
+    };
   };
+
 }

@@ -9,7 +9,6 @@
     vim
     brave
     alacritty
-    polkit_gnome
     cinnamon.nemo
   ];
 }

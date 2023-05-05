@@ -9,13 +9,11 @@
     ./aliases.nix
     ./default-envs.nix
     ./1password-configuration.nix
-    ./pam-keyring.nix
     ./user-packages.nix
     ./system-packages
     ./hardware-configuration.nix
     ./home-manager-configuration.nix
-    #./gnome.nix
-    ./i3.nix
+    ./gnome.nix
     ./virtualisation.nix
     ./gpg.nix
     ./ledger-live.nix

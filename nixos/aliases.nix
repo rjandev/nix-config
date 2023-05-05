@@ -8,6 +8,7 @@
       # nix rebuild
       nrt = ifSudo "sudo nixos-rebuild test --flake .#jan-pc";
       nrs = ifSudo "sudo nixos-rebuild switch --flake .#jan-pc";
+      nrsu = ifSudo "sudo nixos-rebuild switch --upgrade --flake .#jan-pc";
       # nix-env with system-profile
       nsp = ifSudo "sudo nix-env --profile /nix/var/nix/profiles/system";
       # list all generations

@@ -3,9 +3,10 @@
 {
   environment.systemPackages = with pkgs; [
     git
-    unstable.jetbrains.idea-ultimate
+    jetbrains.jdk
+    jetbrains.idea-ultimate
     jetbrains-mono
-    unstable.kotlin
+    kotlin
   ];
 
   programs.java = { enable = true; };

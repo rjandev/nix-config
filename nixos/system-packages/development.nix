@@ -7,11 +7,12 @@
     ./jetbrains/default.nix
   ];
 
-  environment.systemPackages = with pkgs; [
+  environment.systemPackages = with pkgs; [ # #
     git
-    #jetbrains.jdk jetbrains.idea-ultimate
     jetbrains-mono
     kotlin
+    jdk17
+    gradle
   ];
 
   programs.java = { enable = true; };

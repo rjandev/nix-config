@@ -30,30 +30,6 @@ in {
         (jetbrains.idea-ultimate.overrideAttrs (oldAttrs: rec {
           src = pkgs.fetchurl rec { url = (lib.replaceStrings [ "-no-jbr" ] [ "" ] oldAttrs.src.url); };
         }))
-        #(jetbrains.goland.overrideAttrs (oldAttrs: rec { postFixup = ""; }))
-        #        (jetbrains.clion.overrideAttrs (oldAttrs: rec {
-        #          # copied from original and added lldb fix
-        #          postFixup = lib.optionalString (stdenv.isLinux) ''
-        #            (
-        #              cd $out/clion
-        #              # bundled cmake does not find libc
-        #              rm -rf bin/cmake/linux
-        #              ln -s ${cmake} bin/cmake/linux
-        #              # bundled gdb does not find libcrypto 10
-        #              rm -rf bin/gdb/linux
-        #              ln -s ${gdb} bin/gdb/linux
-        #              # bundled lldb does not find dependencies
-        #              rm -rf bin/lldb/linux
-        #              ln -s ${lldb} bin/lldb/linux
-        #
-        #              autoPatchelf $PWD/bin
-        #              wrapProgram $out/bin/clion \
-        #                --set CL_JDK "${jdk}"
-        #            )
-        #          '';
-        #        }))
-        #jetbrains.pycharm-professional
-        #jetbrains.webstorm
       ]);
   };
 

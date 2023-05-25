@@ -17,9 +17,8 @@
       ndg = ifSudo "nsp --delete-generations";
       # run garbage collector
       ncg = ifSudo "sudo nix-store --gc";
-      # update lockfile (nixpks and nixpkgs unstable)
-      nul = ifSudo
-        "nix flake lock --update-input nixpkgs --update-input nixpkgs-unstable --extra-experimental-features nix-command --extra-experimental-features flakes ";
+      # update all lockfile
+      nul = ifSudo "nix --extra-experimental-features nix-command --extra-experimental-features flakes flake update";
     };
   };
 }

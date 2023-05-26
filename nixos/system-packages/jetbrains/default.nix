@@ -11,9 +11,9 @@ let
         -Xmx8192m
       '';
     })).overrideAttrs (attrs:
-      # replace version with the one specified above if it is newer
+      # replace version with the one from versions.json
       let v = versions.linux.${attrs.pname} or { };
-      in if v != { } && v.version > attrs.version then rec {
+      in if v != { } then rec {
         version = v.version;
         src = pkgs.fetchurl rec {
           url = (lib.replaceStrings [ attrs.version ] [ v.version ] attrs.src.url);

@@ -13,6 +13,7 @@
     kotlin
     jdk17
     gradle
+    yarn
   ];
 
   programs.java = { enable = true; };

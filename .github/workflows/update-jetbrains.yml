@@ -42,4 +42,4 @@ jobs:
             --base main \
             --head $BRANCH
           
-          gh pr merge $BRANCH --delete-branch --auto
+          gh pr merge $BRANCH --delete-branch --auto --rebase

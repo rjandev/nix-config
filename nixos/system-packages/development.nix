@@ -5,6 +5,7 @@
   imports = [
     # install custom/latest version of jetbrains products without using unstable channel
     ./jetbrains/default.nix
+    ./docker.nix
   ];
 
   environment.systemPackages = with pkgs; [ # #

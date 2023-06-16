@@ -15,6 +15,7 @@
     jdk17
     gradle
     yarn
+    nodejs
   ];
 
   programs.java = { enable = true; };

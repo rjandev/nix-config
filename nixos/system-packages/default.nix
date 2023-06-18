@@ -5,10 +5,10 @@
     ./development.nix
     ./nixos.nix
   ];
-  environment.systemPackages = with pkgs; [
-    vim
+  environment.systemPackages = with pkgs; [ # #
     brave
     alacritty
-    cinnamon.nemo
   ];
+
+  programs.vim.defaultEditor = true;
 }

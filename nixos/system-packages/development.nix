@@ -8,10 +8,20 @@
     ./docker.nix
   ];
 
+  nixpkgs.overlays = [
+    (self: super: {
+      gradle = super.gradle.override {
+        java = super.jdk;
+        javaToolchains = [ super.jdk super.jdk17 ];
+      };
+    })
+  ];
+
   environment.systemPackages = with pkgs; [ # #
     git
     jetbrains-mono
     kotlin
+    jdk
     jdk17
     gradle
     yarn

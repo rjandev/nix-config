@@ -8,6 +8,7 @@
   environment.systemPackages = with pkgs; [ # #
     brave
     alacritty
+    htop
   ];
 
   programs.vim.defaultEditor = true;

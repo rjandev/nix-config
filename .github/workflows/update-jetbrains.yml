@@ -34,7 +34,7 @@ jobs:
           git checkout -b $BRANCH
           
           git add ./nixos/system-packages/jetbrains/versions.json
-          git commit -m "update jetbrains product versions"
+          git commit -m "Update jetbrains product versions"
           git push --set-upstream origin $BRANCH
           gh pr create \
             --title "Update Jetbrains Product Versions" \

@@ -9,6 +9,7 @@
     brave
     alacritty
     htop
+    signal-desktop
   ];
 
   programs.vim.defaultEditor = true;

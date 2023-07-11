@@ -10,6 +10,7 @@
     alacritty
     htop
     signal-desktop
+    ncdu
   ];
 
   programs.vim.defaultEditor = true;

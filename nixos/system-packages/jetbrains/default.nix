@@ -14,9 +14,9 @@ let
       # replace version with the one from versions.json
       let v = versions.linux.${attrs.pname} or { };
       in if v != { } then rec {
-        version = v.version;
         src = pkgs.fetchurl rec {
-          url = (lib.replaceStrings [ attrs.version ] [ v.version ] attrs.src.url);
+          version = v.version;
+          url = v.url;
           sha256 = v.sha256;
         };
       } else

@@ -39,11 +39,11 @@
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
       "url-template": "https://download.jetbrains.com/idea/ideaIC-{version}.tar.gz",
-      "version": "2023.1.4",
-      "sha256": "9ea98c03b29903f7bde41f6a3c039621fff5d04015f37f9f21e04966d557ea90",
-      "url": "https://download.jetbrains.com/idea/ideaIC-2023.1.4.tar.gz",
+      "version": "2023.1.5",
+      "sha256": "6698e75b8a6628c421c5226b5005781932badb4591ef0a09444eefd7824b9d64",
+      "url": "https://download.jetbrains.com/idea/ideaIC-2023.1.5.tar.gz",
       "version-major-minor": "2022.1",
-      "build_number": "231.9225.16"
+      "build_number": "231.9392.1"
     },
     "idea-ultimate": {
       "update-channel": "IntelliJ IDEA EAP",
@@ -102,11 +102,11 @@
     "ruby-mine": {
       "update-channel": "RubyMine RELEASE",
       "url-template": "https://download.jetbrains.com/ruby/RubyMine-{version}.tar.gz",
-      "version": "2023.1.4",
-      "sha256": "b9b5d2a3c0c0517e1ef1363b2abe5ca41441343bc1c8999d1b8e6dff248027fb",
-      "url": "https://download.jetbrains.com/ruby/RubyMine-2023.1.4.tar.gz",
+      "version": "2023.1.5",
+      "sha256": "32ec11992be5675a059df5528e04df7d1f8d96f1eebb9dd2d0141ae7f7be6d37",
+      "url": "https://download.jetbrains.com/ruby/RubyMine-2023.1.5.tar.gz",
       "version-major-minor": "2022.1",
-      "build_number": "231.9225.12"
+      "build_number": "231.9392.3"
     },
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
@@ -158,20 +158,20 @@
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
       "url-template": "https://download.jetbrains.com/idea/ideaIC-{version}.dmg",
-      "version": "2023.1.4",
-      "sha256": "07dcc09078efea0a6c7d009ec79878d69534f2ca973f546ed469abbc4fec5088",
-      "url": "https://download.jetbrains.com/idea/ideaIC-2023.1.4.dmg",
+      "version": "2023.1.5",
+      "sha256": "bb497c5924a8eb135f5e0f394c9913b8d5f138560a1163a0090eb2fe34ea8c1e",
+      "url": "https://download.jetbrains.com/idea/ideaIC-2023.1.5.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "231.9225.16"
+      "build_number": "231.9392.1"
     },
     "idea-ultimate": {
       "update-channel": "IntelliJ IDEA RELEASE",
       "url-template": "https://download.jetbrains.com/idea/ideaIU-{version}.dmg",
-      "version": "2023.1.4",
-      "sha256": "d039c8789724962fa264d55d47ac2e5efc2779fd082dcb6615ae15b2ca66ce91",
-      "url": "https://download.jetbrains.com/idea/ideaIU-2023.1.4.dmg",
+      "version": "2023.1.5",
+      "sha256": "83ab064886a9081fc181ad19e600d1cce7448f95b9937287501a8d532dfe4121",
+      "url": "https://download.jetbrains.com/idea/ideaIU-2023.1.5.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "231.9225.16"
+      "build_number": "231.9392.1"
     },
     "mps": {
       "update-channel": "MPS RELEASE",
@@ -221,11 +221,11 @@
     "ruby-mine": {
       "update-channel": "RubyMine RELEASE",
       "url-template": "https://download.jetbrains.com/ruby/RubyMine-{version}.dmg",
-      "version": "2023.1.4",
-      "sha256": "4ade59a9d04cc4b5e0a4ed62c2c60e8ddba9717ae91a3e8cf53363d8f0a41e29",
-      "url": "https://download.jetbrains.com/ruby/RubyMine-2023.1.4.dmg",
+      "version": "2023.1.5",
+      "sha256": "1df2e961922d32f946f4295238abeff367a5ef0233298b6fbdbff4cc3eb0c8bd",
+      "url": "https://download.jetbrains.com/ruby/RubyMine-2023.1.5.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "231.9225.12"
+      "build_number": "231.9392.3"
     },
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
@@ -277,20 +277,20 @@
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
       "url-template": "https://download.jetbrains.com/idea/ideaIC-{version}-aarch64.dmg",
-      "version": "2023.1.4",
-      "sha256": "806d6edf7e4cf5636938522c4f64887ed9657b7628311573148d630bbd677228",
-      "url": "https://download.jetbrains.com/idea/ideaIC-2023.1.4-aarch64.dmg",
+      "version": "2023.1.5",
+      "sha256": "d5e960f35351ba22a069181a853fe950fd523b5c2dbbf7535cf7341e51508325",
+      "url": "https://download.jetbrains.com/idea/ideaIC-2023.1.5-aarch64.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "231.9225.16"
+      "build_number": "231.9392.1"
     },
     "idea-ultimate": {
       "update-channel": "IntelliJ IDEA RELEASE",
       "url-template": "https://download.jetbrains.com/idea/ideaIU-{version}-aarch64.dmg",
-      "version": "2023.1.4",
-      "sha256": "a03b9357a0d54936df1631f75d11d2647bc89ca5c5baaa4af07a58ab729924cc",
-      "url": "https://download.jetbrains.com/idea/ideaIU-2023.1.4-aarch64.dmg",
+      "version": "2023.1.5",
+      "sha256": "fcb055d981c5c13011460d3e44ecd260af38626b82bc30e05baccd328dcb3827",
+      "url": "https://download.jetbrains.com/idea/ideaIU-2023.1.5-aarch64.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "231.9225.16"
+      "build_number": "231.9392.1"
     },
     "mps": {
       "update-channel": "MPS RELEASE",
@@ -340,11 +340,11 @@
     "ruby-mine": {
       "update-channel": "RubyMine RELEASE",
       "url-template": "https://download.jetbrains.com/ruby/RubyMine-{version}-aarch64.dmg",
-      "version": "2023.1.4",
-      "sha256": "ddcb8bf654c24daa0365b9e734b9c6b6d0238303d0f8f540d6e1ce821539e59e",
-      "url": "https://download.jetbrains.com/ruby/RubyMine-2023.1.4-aarch64.dmg",
+      "version": "2023.1.5",
+      "sha256": "7a158d33c0e6a6d7b6cfc33f1c62cf6981211750bd88ea21e779fed0c75fd565",
+      "url": "https://download.jetbrains.com/ruby/RubyMine-2023.1.5-aarch64.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "231.9225.12"
+      "build_number": "231.9392.3"
     },
     "webstorm": {
       "update-channel": "WebStorm RELEASE",

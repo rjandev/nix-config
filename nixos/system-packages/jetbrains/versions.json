@@ -30,11 +30,11 @@
     "goland": {
       "update-channel": "GoLand RELEASE",
       "url-template": "https://download.jetbrains.com/go/goland-{version}.tar.gz",
-      "version": "2023.1.4",
-      "sha256": "ac8bd42b6dee2aedcfd05656b7f74969e6775f41c9d6614d3cc4946fbc8c346f",
-      "url": "https://download.jetbrains.com/go/goland-2023.1.4.tar.gz",
+      "version": "2023.2",
+      "sha256": "17f1bbd9a46061fdd013d49a99859c1ca3ece1a3cc51cdcf2b46eae0432f2481",
+      "url": "https://download.jetbrains.com/go/goland-2023.2.tar.gz",
       "version-major-minor": "2022.2",
-      "build_number": "231.9225.16"
+      "build_number": "232.8660.185"
     },
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
@@ -149,11 +149,11 @@
     "goland": {
       "update-channel": "GoLand RELEASE",
       "url-template": "https://download.jetbrains.com/go/goland-{version}.dmg",
-      "version": "2023.1.4",
-      "sha256": "ec4d8724ef0b3c1d597801d23622ea5625b65c260d43d9e670c2fc63f448ea45",
-      "url": "https://download.jetbrains.com/go/goland-2023.1.4.dmg",
+      "version": "2023.2",
+      "sha256": "8dfde9eb0344c0c049c2c327ee5c92dff612bf2ac2574a04987b7f99ed91b47e",
+      "url": "https://download.jetbrains.com/go/goland-2023.2.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "231.9225.16"
+      "build_number": "232.8660.185"
     },
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
@@ -268,11 +268,11 @@
     "goland": {
       "update-channel": "GoLand RELEASE",
       "url-template": "https://download.jetbrains.com/go/goland-{version}-aarch64.dmg",
-      "version": "2023.1.4",
-      "sha256": "5b60eac7a22f6e37345efe9dbbd65e9176a6f1ec899f92bcecbcabb8f96b2ae4",
-      "url": "https://download.jetbrains.com/go/goland-2023.1.4-aarch64.dmg",
+      "version": "2023.2",
+      "sha256": "0b48b7b62972ff6ff81c3e16adfe3824043c989d693bbd2a5b03145a80c4f72e",
+      "url": "https://download.jetbrains.com/go/goland-2023.2-aarch64.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "231.9225.16"
+      "build_number": "232.8660.185"
     },
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",

@@ -93,11 +93,11 @@
     "rider": {
       "update-channel": "Rider RELEASE",
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}.tar.gz",
-      "version": "2023.1.4",
-      "sha256": "0ff1916d0db4f081629e118da5418353e14d57bf2c0ec983db931d989becc683",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2023.1.4.tar.gz",
+      "version": "2023.2",
+      "sha256": "1aa3436edb94cba8ec0e51605e146ecd528affa96e0e26df572c2437e9b00d2f",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2023.2.tar.gz",
       "version-major-minor": "2022.1",
-      "build_number": "231.9225.23"
+      "build_number": "232.8660.212"
     },
     "ruby-mine": {
       "update-channel": "RubyMine RELEASE",
@@ -212,11 +212,11 @@
     "rider": {
       "update-channel": "Rider RELEASE",
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}.dmg",
-      "version": "2023.1.4",
-      "sha256": "5f1fc9acebd587902908e310a97ff4e0fb12e6d840584618ffff6102d756d703",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2023.1.4.dmg",
+      "version": "2023.2",
+      "sha256": "8041b79a64ac24578d8fe9c1ec02d91eb3b047164cf48713e988bc9a9c3d53d7",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2023.2.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "231.9225.23"
+      "build_number": "232.8660.212"
     },
     "ruby-mine": {
       "update-channel": "RubyMine RELEASE",
@@ -331,11 +331,11 @@
     "rider": {
       "update-channel": "Rider RELEASE",
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}-aarch64.dmg",
-      "version": "2023.1.4",
-      "sha256": "3995b3566fb64938931d6308891cc63d1a7743076d27cab4ebee1ed028d8f9a5",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2023.1.4-aarch64.dmg",
+      "version": "2023.2",
+      "sha256": "c5168f8ce698b5ddea7652f88b652239f87e87fa51438ac358aa8a44a3686272",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2023.2-aarch64.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "231.9225.23"
+      "build_number": "232.8660.212"
     },
     "ruby-mine": {
       "update-channel": "RubyMine RELEASE",

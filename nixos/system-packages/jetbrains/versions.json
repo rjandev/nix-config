@@ -46,13 +46,13 @@
       "build_number": "232.8660.185"
     },
     "idea-ultimate": {
-      "update-channel": "IntelliJ IDEA EAP",
+      "update-channel": "IntelliJ IDEA RELEASE",
       "url-template": "https://download.jetbrains.com/idea/ideaIU-{version}.tar.gz",
-      "version": "2023.2 Beta",
-      "sha256": "4dc394caf39144f54bffba18df5e3f008e87aa9b423f60ab48288858f53d291c",
-      "url": "https://download.jetbrains.com/idea/ideaIU-232.8660.48.tar.gz",
+      "version": "2023.2",
+      "sha256": "d398599557cc732fd1f58f38104d7cda35e326e4cd394245a8358e02fb8878b3",
+      "url": "https://download.jetbrains.com/idea/ideaIU-2023.2.tar.gz",
       "version-major-minor": "2022.1",
-      "build_number": "232.8660.48"
+      "build_number": "232.8660.185"
     },
     "mps": {
       "update-channel": "MPS RELEASE",

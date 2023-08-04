@@ -66,11 +66,11 @@
     "phpstorm": {
       "update-channel": "PhpStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webide/PhpStorm-{version}.tar.gz",
-      "version": "2023.1.4",
-      "sha256": "7b44d704641c6015ce49e12e82c8866e9fdd8e8d421590235e536b3b1312b180",
-      "url": "https://download.jetbrains.com/webide/PhpStorm-2023.1.4.tar.gz",
+      "version": "2023.2",
+      "sha256": "81345b7bf6f9bd844804a6d72f617dd9ced606508e5d34eba8cd83a8b115f556",
+      "url": "https://download.jetbrains.com/webide/PhpStorm-2023.2.tar.gz",
       "version-major-minor": "2022.1",
-      "build_number": "231.9225.18"
+      "build_number": "232.8660.205"
     },
     "pycharm-community": {
       "update-channel": "PyCharm RELEASE",
@@ -185,11 +185,11 @@
     "phpstorm": {
       "update-channel": "PhpStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webide/PhpStorm-{version}.dmg",
-      "version": "2023.1.4",
-      "sha256": "4d3d9005772d2136e44f7774377fae053b690501800ea5e650d0f35882690fdd",
-      "url": "https://download.jetbrains.com/webide/PhpStorm-2023.1.4.dmg",
+      "version": "2023.2",
+      "sha256": "c8a3287383190113c65ec3c11fe808096faf581ce71953a258992900d97c377f",
+      "url": "https://download.jetbrains.com/webide/PhpStorm-2023.2.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "231.9225.18"
+      "build_number": "232.8660.205"
     },
     "pycharm-community": {
       "update-channel": "PyCharm RELEASE",
@@ -304,11 +304,11 @@
     "phpstorm": {
       "update-channel": "PhpStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webide/PhpStorm-{version}-aarch64.dmg",
-      "version": "2023.1.4",
-      "sha256": "3285135fc4c529640ecfc5b451fa9b51d9df2a323915509cc6cbb3f25717c9e2",
-      "url": "https://download.jetbrains.com/webide/PhpStorm-2023.1.4-aarch64.dmg",
+      "version": "2023.2",
+      "sha256": "365ed1ea1eb87f93abf581080c72866d693bfc60c4b8cd5682b5ec93f63ed4a9",
+      "url": "https://download.jetbrains.com/webide/PhpStorm-2023.2-aarch64.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "231.9225.18"
+      "build_number": "232.8660.205"
     },
     "pycharm-community": {
       "update-channel": "PyCharm RELEASE",

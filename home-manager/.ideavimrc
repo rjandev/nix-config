@@ -1,5 +1,5 @@
 " use , instead of \ for leader key
-let mapleader=","
+let mapleader=" "
 
 " Show a few lines of context around the cursor. Note that this makes the
 " text scroll if you mouse-click near the start or end of the window.
@@ -16,6 +16,7 @@ set smartcase                               " no ignore case when pattern is upp
 set incsearch                               " show search results while typing
 set wrapscan                                " searches wrap around the end of the file
 set clipboard=unnamedplus,unnamed,ideaput   " integrate with system clipboard
+set ideajoin
 
 " Don't use Ex mode, use Q for formatting.
 map Q gq
@@ -45,9 +46,16 @@ sethandler <C-A> a:ide
 nnoremap <esc> :noh<return><esc>
 nnoremap <esc>^[ <esc>^[
 
+"" custom bindings for intellij actions
+map <leader>r <action>(RenameElement)
+map <leader>z <action>(ToggleDistractionFreeMode)
+map <leader>s <Action>(SelectInProjectView)
+map <leader>a <Action>(Annotate) "git blame
+map <leader>h <Action>(Vcs.ShowTabbedFileHistory)
+map <leader>t <Action>(ActivateTerminalToolWindow)
+map <leader>l V<Action>(ReformatCode) " Reformat the current line only
+map <leader>b <Action>(ToggleLineBreakpoint)
+map <leader>o <Action>(FileStructurePopup)
+map <leader>i ~hi " Toggle case and start typing. E.g. `<leader>iget`: `<caret>property` -> `getProperty`
+vmap <leader>u d~h " Remove selection and toggle case. E.g. `v2l<leader>u`: `<caret>getProperty` -> `property`
 
-"" Map <leader>d to start debug
-"map <leader>d <Action>(Debug)
-
-"" Map \b to toggle the breakpoint on the current line
-"map \b <Action>(ToggleLineBreakpoint)

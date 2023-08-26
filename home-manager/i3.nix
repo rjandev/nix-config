@@ -216,7 +216,7 @@ in {
      	}
     }
 
-    for_window [class=".*"] border pixel 0
+    for_window [class=".*"] border pixel 1
 
     # gaps
     smart_gaps on

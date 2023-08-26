@@ -83,7 +83,7 @@ in {
     bindsym $mod+Shift+l move right
 
     # split in horizontal orientation
-    bindsym $mod+h split h
+    bindsym $mod+Shift+v split h
 
     # split in vertical orientation
     bindsym $mod+v split v
@@ -164,7 +164,7 @@ in {
     bindsym $mod+period workspace next
     # move focused workspace left/right
     bindsym $mod+Shift+comma move workspace to output left
-    bindysm $mod+Shift+period move workspace to output right
+    bindsym $mod+Shift+period move workspace to output right
 
     # reload the configuration file
     bindsym $mod+Shift+r reload

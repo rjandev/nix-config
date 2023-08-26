@@ -14,6 +14,7 @@
     # ./nvim.nix
     ./ssh-configuration.nix
     ./idea-vim-configuration.nix
+    ./i3.nix
   ];
 
   nixpkgs = {

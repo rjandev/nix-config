@@ -13,7 +13,7 @@
     ./system-packages
     ./hardware-configuration.nix
     ./home-manager-configuration.nix
-    ./gnome.nix
+    ./i3.nix
     ./virtualisation.nix
     ./gpg.nix
     ./ledger-live.nix
@@ -34,8 +34,7 @@
   # enable swap on luks (TODO replace UUIDs with label)
   boot.initrd.luks.devices."luks-ad14a4a5-8740-4828-9b08-d80466e17192".device =
     "/dev/disk/by-uuid/ad14a4a5-8740-4828-9b08-d80466e17192";
-  boot.initrd.luks.devices."luks-ad14a4a5-8740-4828-9b08-d80466e17192".keyFile =
-    "/crypto_keyfile.bin";
+  boot.initrd.luks.devices."luks-ad14a4a5-8740-4828-9b08-d80466e17192".keyFile = "/crypto_keyfile.bin";
 
   networking.hostName = "jan-nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -110,11 +109,7 @@
   # Allow unfree packages
   nixpkgs = {
     # You can add overlays here
-    overlays = [
-      outputs.overlays.additions
-      outputs.overlays.modifications
-      outputs.overlays.unstable-packages
-    ];
+    overlays = [ outputs.overlays.additions outputs.overlays.modifications outputs.overlays.unstable-packages ];
     config = { allowUnfree = true; };
   };
   # List packages installed in system profile. To search, run:

@@ -9,6 +9,7 @@
     ./aliases.nix
     ./default-envs.nix
     ./1password-configuration.nix
+    ./pam-keyring.nix
     ./user-packages.nix
     ./system-packages
     ./hardware-configuration.nix

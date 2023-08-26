@@ -7,6 +7,8 @@
 
   security.pam.services.lightdm = { enableGnomeKeyring = true; };
 
+  environment.systemPackages = with pkgs; [ polkit_gnome ];
+
   # autostart gnome polkit agent
   systemd = {
     user.services.polkit-gnome-authentication-agent-1 = {
@@ -16,8 +18,7 @@
       after = [ "graphical-session.target" ];
       serviceConfig = {
         Type = "simple";
-        ExecStart =
-          "${pkgs.polkit_gnome}/libexec/polkit-gnome-authentication-agent-1";
+        ExecStart = "${pkgs.polkit_gnome}/libexec/polkit-gnome-authentication-agent-1";
         Restart = "on-failure";
         RestartSec = 1;
         TimeoutStopSec = 10;

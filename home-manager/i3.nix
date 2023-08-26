@@ -122,9 +122,6 @@ in {
     set $ws10 "10"
     set $wsb "browser"
     set $music "music"
-    set $work1 "work (1)"
-    set $work2 "work (2)"
-    set $work3 "work (3)"
 
     # switch to workspace
     bindsym $mod+1 workspace number $ws1
@@ -140,12 +137,9 @@ in {
     #bindsym $mod+b workspace $wsb
 
     # bind workspace to monitor
-    workspace $ws1 output DP-1
-    workspace $ws2 output DVI-I-1
+    workspace $ws1 output DP-2
+    workspace $ws2 output DP-1
     workspace $ws10 output HDMI-0
-    workspace $work1 output DP-1    # always open work1 on main monitor
-    workspace $work2 output DVI-I-1 # and work 2 on second/right monitor
-    workspace $work3 output HDMI-0
 
     # move focused container to workspace
     bindsym $mod+Shift+1 move container to workspace number $ws1
@@ -230,13 +224,6 @@ in {
     bindsym $mod+b workspace browser; exec pidof $BROWSER >/dev/null || exec $BROWSER
 
     for_window [class="Spotify"] move to workspace $music, workspace $music
-
-    # work
-    for_window [class="Virt-viewer" title="1"] move to workspace $work1, workspace $work1
-    for_window [class="Virt-viewer" title="2"] move to workspace $work2, workspace $work2
-    for_window [class="Virt-viewer" title="3"] move to workspace $work3, workspace $work3
-    for_window [class="xfreerdp" ] move to workspace $work1, workspace $work1, floating enable
-    for_window [window_type="_NET_WM_WINDOW_TYPE_NOTIFICATION"] floating enable
 
     # enable floating for popups
     for_window [window_role="pop-up"] floating enable

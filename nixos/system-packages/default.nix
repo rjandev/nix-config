@@ -11,6 +11,7 @@
     htop
     signal-desktop
     ncdu
+    playerctl
   ];
 
   programs.vim.defaultEditor = true;

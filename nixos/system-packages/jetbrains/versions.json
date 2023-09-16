@@ -111,11 +111,11 @@
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webstorm/WebStorm-{version}.tar.gz",
-      "version": "2023.2.1",
-      "sha256": "0487d1e80b3d538c968ab6437d950a504166b0c266346d52969bfb828820a642",
-      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.2.1.tar.gz",
+      "version": "2023.2.2",
+      "sha256": "10c1203620258bf4b0c952d809f50ea954f80d1ed60098917a4c64fb2718b931",
+      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.2.2.tar.gz",
       "version-major-minor": "2022.1",
-      "build_number": "232.9559.58"
+      "build_number": "232.9921.42"
     }
   },
   "x86_64-darwin": {
@@ -230,11 +230,11 @@
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webstorm/WebStorm-{version}.dmg",
-      "version": "2023.2.1",
-      "sha256": "c42ba4e262a91bed368168ef8498058ccaef560bce3f72d86fc80e5492cad6f1",
-      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.2.1.dmg",
+      "version": "2023.2.2",
+      "sha256": "3733f1968925681a693a09053e62ba4a800b51a062f5e9772658a5fba82d2fa8",
+      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.2.2.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "232.9559.58"
+      "build_number": "232.9921.42"
     }
   },
   "aarch64-darwin": {
@@ -349,11 +349,11 @@
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webstorm/WebStorm-{version}-aarch64.dmg",
-      "version": "2023.2.1",
-      "sha256": "fb75c5d9164776353262cde6d8589826975868804a32f27007cb8a71c0e2d87b",
-      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.2.1-aarch64.dmg",
+      "version": "2023.2.2",
+      "sha256": "27ae504b6ee24df28d29f59602c893c2b9af9357e4cc1e20dab22753177508db",
+      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.2.2-aarch64.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "232.9559.58"
+      "build_number": "232.9921.42"
     }
   }
 }

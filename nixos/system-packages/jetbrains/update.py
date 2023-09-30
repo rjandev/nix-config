@@ -24,6 +24,9 @@ def download_channels():
     updates_response.raise_for_status()
     root = xmltodict.parse(updates_response.text)
     products = root["products"]["product"]
+    for product in products:
+      if "channel" not in product:
+        products.remove(product)
     return {
         channel["@name"]: channel
         for product in products

@@ -75,20 +75,20 @@
     "pycharm-community": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-community-{version}.tar.gz",
-      "version": "2023.2.1",
-      "sha256": "5956c6cb5a5bad1d9749e487b3bb69fcbf0170f52324e4ff009283b723838778",
-      "url": "https://download.jetbrains.com/python/pycharm-community-2023.2.1.tar.gz",
+      "version": "2023.2.2",
+      "sha256": "2bb4f73d041b818a7b631feb3fee77036de764543c669efe9cf6766510a68e3f",
+      "url": "https://download.jetbrains.com/python/pycharm-community-2023.2.2.tar.gz",
       "version-major-minor": "2022.2",
-      "build_number": "232.9559.58"
+      "build_number": "232.9921.89"
     },
     "pycharm-professional": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-professional-{version}.tar.gz",
-      "version": "2023.2.1",
-      "sha256": "8f7c0aca8f2a832164426393e55d543b3b56867f2497d8844547fb03e217f160",
-      "url": "https://download.jetbrains.com/python/pycharm-professional-2023.2.1.tar.gz",
+      "version": "2023.2.2",
+      "sha256": "f7263b17e2456efcb5efab1eac53aafb6a0be1a7f9fbf25a419c9d7b447f6ded",
+      "url": "https://download.jetbrains.com/python/pycharm-professional-2023.2.2.tar.gz",
       "version-major-minor": "2022.2",
-      "build_number": "232.9559.58"
+      "build_number": "232.9921.89"
     },
     "rider": {
       "update-channel": "Rider RELEASE",
@@ -194,20 +194,20 @@
     "pycharm-community": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-community-{version}.dmg",
-      "version": "2023.2.1",
-      "sha256": "5bbbfd755d407e75a77900e3a5367dc7ec4f4ddde3311625341b3c35353b126b",
-      "url": "https://download.jetbrains.com/python/pycharm-community-2023.2.1.dmg",
+      "version": "2023.2.2",
+      "sha256": "f482b6d451efec897764487b116f7bf09d507a5ebfb841c33e2abd2441c3b3a7",
+      "url": "https://download.jetbrains.com/python/pycharm-community-2023.2.2.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "232.9559.58"
+      "build_number": "232.9921.89"
     },
     "pycharm-professional": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-professional-{version}.dmg",
-      "version": "2023.2.1",
-      "sha256": "56747a699b16387df1c0c8cb5bd2d52c8ce7fe670054e5f37352b381d7272dbe",
-      "url": "https://download.jetbrains.com/python/pycharm-professional-2023.2.1.dmg",
+      "version": "2023.2.2",
+      "sha256": "830f590d63199b389bbaa955c8602fa027bc1eb25bd8ce5636474eec72745b58",
+      "url": "https://download.jetbrains.com/python/pycharm-professional-2023.2.2.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "232.9559.58"
+      "build_number": "232.9921.89"
     },
     "rider": {
       "update-channel": "Rider RELEASE",
@@ -313,20 +313,20 @@
     "pycharm-community": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-community-{version}-aarch64.dmg",
-      "version": "2023.2.1",
-      "sha256": "4bc1462299de2202c7171f34ad1b7c51f83f2227e0e891cf8a8098f8494e781d",
-      "url": "https://download.jetbrains.com/python/pycharm-community-2023.2.1-aarch64.dmg",
+      "version": "2023.2.2",
+      "sha256": "2bcddf3e58902578745dd1803f17ebd18f4c98dc76bf48b0945afbc7bae45832",
+      "url": "https://download.jetbrains.com/python/pycharm-community-2023.2.2-aarch64.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "232.9559.58"
+      "build_number": "232.9921.89"
     },
     "pycharm-professional": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-professional-{version}-aarch64.dmg",
-      "version": "2023.2.1",
-      "sha256": "82722d522176ca9aac0e919a38c3b88155e6e3cc104b64204755a9657a180b52",
-      "url": "https://download.jetbrains.com/python/pycharm-professional-2023.2.1-aarch64.dmg",
+      "version": "2023.2.2",
+      "sha256": "5d4292dd0e40db35199ebcd6472d4b46c505d3357d2324690338758355e0f092",
+      "url": "https://download.jetbrains.com/python/pycharm-professional-2023.2.2-aarch64.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "232.9559.58"
+      "build_number": "232.9921.89"
     },
     "rider": {
       "update-channel": "Rider RELEASE",

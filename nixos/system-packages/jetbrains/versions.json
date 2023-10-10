@@ -102,11 +102,11 @@
     "ruby-mine": {
       "update-channel": "RubyMine RELEASE",
       "url-template": "https://download.jetbrains.com/ruby/RubyMine-{version}.tar.gz",
-      "version": "2023.2.2",
-      "sha256": "9f14f95ef1952d6b85e13a596d00e8b57ab35a4d07a96ee33d4ceebbd113a827",
-      "url": "https://download.jetbrains.com/ruby/RubyMine-2023.2.2.tar.gz",
+      "version": "2023.2.3",
+      "sha256": "068b8c486cd61755787538ea036608a9aa590a3b49cd9003dd5edce28d322c02",
+      "url": "https://download.jetbrains.com/ruby/RubyMine-2023.2.3.tar.gz",
       "version-major-minor": "2022.1",
-      "build_number": "232.9921.48"
+      "build_number": "232.10072.21"
     },
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
@@ -221,11 +221,11 @@
     "ruby-mine": {
       "update-channel": "RubyMine RELEASE",
       "url-template": "https://download.jetbrains.com/ruby/RubyMine-{version}.dmg",
-      "version": "2023.2.2",
-      "sha256": "2b77f24770813c0cf55892effde8c0a6a5af1c9f4b08c1c8ae9163e503afc5d3",
-      "url": "https://download.jetbrains.com/ruby/RubyMine-2023.2.2.dmg",
+      "version": "2023.2.3",
+      "sha256": "eb0db28facbe7aed6de99dc97053cdfbeea845ce73b6b9efa6c95caaf68204e9",
+      "url": "https://download.jetbrains.com/ruby/RubyMine-2023.2.3.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "232.9921.48"
+      "build_number": "232.10072.21"
     },
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
@@ -340,11 +340,11 @@
     "ruby-mine": {
       "update-channel": "RubyMine RELEASE",
       "url-template": "https://download.jetbrains.com/ruby/RubyMine-{version}-aarch64.dmg",
-      "version": "2023.2.2",
-      "sha256": "53e551897d42d0986b2e01f171bd7b96fe790516fdf1578feabec0a44cf441e5",
-      "url": "https://download.jetbrains.com/ruby/RubyMine-2023.2.2-aarch64.dmg",
+      "version": "2023.2.3",
+      "sha256": "db571f72488e299d700670c546fb5ae9e1b1bc1eff3f2b26ef8520a22b1fb407",
+      "url": "https://download.jetbrains.com/ruby/RubyMine-2023.2.3-aarch64.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "232.9921.48"
+      "build_number": "232.10072.21"
     },
     "webstorm": {
       "update-channel": "WebStorm RELEASE",

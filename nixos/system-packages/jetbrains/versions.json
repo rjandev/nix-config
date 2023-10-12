@@ -39,20 +39,20 @@
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
       "url-template": "https://download.jetbrains.com/idea/ideaIC-{version}.tar.gz",
-      "version": "2023.2.2",
-      "sha256": "cf647137394e27b3011072e463dc2e4bcdd54dc6ea9406e487a47648fc77bd26",
-      "url": "https://download.jetbrains.com/idea/ideaIC-2023.2.2.tar.gz",
+      "version": "2023.2.3",
+      "sha256": "4b34fdaabb5907656ac87d50df85f13ace804d8684f3886dac07f62a93706b2e",
+      "url": "https://download.jetbrains.com/idea/ideaIC-2023.2.3.tar.gz",
       "version-major-minor": "2022.1",
-      "build_number": "232.9921.47"
+      "build_number": "232.10072.27"
     },
     "idea-ultimate": {
       "update-channel": "IntelliJ IDEA RELEASE",
       "url-template": "https://download.jetbrains.com/idea/ideaIU-{version}.tar.gz",
-      "version": "2023.2.2",
-      "sha256": "8a0dc4c495b8547fafa90eb81b6fdfc4a9fbbc7b5806d20ebb2f6538330cd3a5",
-      "url": "https://download.jetbrains.com/idea/ideaIU-2023.2.2.tar.gz",
+      "version": "2023.2.3",
+      "sha256": "b395e37c797c10c0fd0c4ccf6e735852fb40bec5fbbc98705f481f6f068c7993",
+      "url": "https://download.jetbrains.com/idea/ideaIU-2023.2.3.tar.gz",
       "version-major-minor": "2022.1",
-      "build_number": "232.9921.47"
+      "build_number": "232.10072.27"
     },
     "mps": {
       "update-channel": "MPS RELEASE",
@@ -158,20 +158,20 @@
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
       "url-template": "https://download.jetbrains.com/idea/ideaIC-{version}.dmg",
-      "version": "2023.2.2",
-      "sha256": "a59590af2bef95562f3b7a066016d22f347d59b71e136d3dd739d626f1594636",
-      "url": "https://download.jetbrains.com/idea/ideaIC-2023.2.2.dmg",
+      "version": "2023.2.3",
+      "sha256": "dbdda6a0df334a402103d3ee1e70cd5f514cc9353efcdd49395a736c9a640730",
+      "url": "https://download.jetbrains.com/idea/ideaIC-2023.2.3.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "232.9921.47"
+      "build_number": "232.10072.27"
     },
     "idea-ultimate": {
       "update-channel": "IntelliJ IDEA RELEASE",
       "url-template": "https://download.jetbrains.com/idea/ideaIU-{version}.dmg",
-      "version": "2023.2.2",
-      "sha256": "f420cc60d925415a7059b3283176b4aafef3555c06746b9617cf50edef62fe69",
-      "url": "https://download.jetbrains.com/idea/ideaIU-2023.2.2.dmg",
+      "version": "2023.2.3",
+      "sha256": "fddefd00d6a96ec8c3bd81f9183f3b70d4df71d460f9c704519abffb95246e0f",
+      "url": "https://download.jetbrains.com/idea/ideaIU-2023.2.3.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "232.9921.47"
+      "build_number": "232.10072.27"
     },
     "mps": {
       "update-channel": "MPS RELEASE",
@@ -277,20 +277,20 @@
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
       "url-template": "https://download.jetbrains.com/idea/ideaIC-{version}-aarch64.dmg",
-      "version": "2023.2.2",
-      "sha256": "b3c126636d2096933672d1c1359fe32ad04d35057090363ad1812951f2ada7d9",
-      "url": "https://download.jetbrains.com/idea/ideaIC-2023.2.2-aarch64.dmg",
+      "version": "2023.2.3",
+      "sha256": "563d2189f1ae0310abd108f256edca786ca732100344b3519a7201245e4af781",
+      "url": "https://download.jetbrains.com/idea/ideaIC-2023.2.3-aarch64.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "232.9921.47"
+      "build_number": "232.10072.27"
     },
     "idea-ultimate": {
       "update-channel": "IntelliJ IDEA RELEASE",
       "url-template": "https://download.jetbrains.com/idea/ideaIU-{version}-aarch64.dmg",
-      "version": "2023.2.2",
-      "sha256": "b649cb8c82190ca8682bad9b37da93f10981d35850f501c196ad106edf96cd44",
-      "url": "https://download.jetbrains.com/idea/ideaIU-2023.2.2-aarch64.dmg",
+      "version": "2023.2.3",
+      "sha256": "4ee862a5f5b2f8d9276744bd67cd024a5c6740601e2168a985a5c66cb43e18ea",
+      "url": "https://download.jetbrains.com/idea/ideaIU-2023.2.3-aarch64.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "232.9921.47"
+      "build_number": "232.10072.27"
     },
     "mps": {
       "update-channel": "MPS RELEASE",

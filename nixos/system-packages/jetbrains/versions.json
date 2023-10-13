@@ -30,11 +30,11 @@
     "goland": {
       "update-channel": "GoLand RELEASE",
       "url-template": "https://download.jetbrains.com/go/goland-{version}.tar.gz",
-      "version": "2023.2.2",
-      "sha256": "e2951dfcd80556f29378d55c8d4ebfbc6e599e14ada17a06386729221d71353b",
-      "url": "https://download.jetbrains.com/go/goland-2023.2.2.tar.gz",
+      "version": "2023.2.3",
+      "sha256": "b34fd9a42d82bcc61052f72ed75f6c1e1d7e37163de38933ee0f124ef6e6bb60",
+      "url": "https://download.jetbrains.com/go/goland-2023.2.3.tar.gz",
       "version-major-minor": "2022.2",
-      "build_number": "232.9921.53"
+      "build_number": "232.10072.27"
     },
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
@@ -111,11 +111,11 @@
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webstorm/WebStorm-{version}.tar.gz",
-      "version": "2023.2.2",
-      "sha256": "10c1203620258bf4b0c952d809f50ea954f80d1ed60098917a4c64fb2718b931",
-      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.2.2.tar.gz",
+      "version": "2023.2.3",
+      "sha256": "b57f4a71361a224aeb0e80f2f311f632ab1757356a2de3627ade3e9dd4ee0899",
+      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.2.3.tar.gz",
       "version-major-minor": "2022.1",
-      "build_number": "232.9921.42"
+      "build_number": "232.10072.28"
     }
   },
   "x86_64-darwin": {
@@ -149,11 +149,11 @@
     "goland": {
       "update-channel": "GoLand RELEASE",
       "url-template": "https://download.jetbrains.com/go/goland-{version}.dmg",
-      "version": "2023.2.2",
-      "sha256": "d60e55ecd6208d2af871c154320f988622cd52ca4b202cd9a90c2de7750e8e23",
-      "url": "https://download.jetbrains.com/go/goland-2023.2.2.dmg",
+      "version": "2023.2.3",
+      "sha256": "5e78a73a69481fd63ad53d99371b3e7e534731c6116ee6d7fee127c533bc644a",
+      "url": "https://download.jetbrains.com/go/goland-2023.2.3.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "232.9921.53"
+      "build_number": "232.10072.27"
     },
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
@@ -230,11 +230,11 @@
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webstorm/WebStorm-{version}.dmg",
-      "version": "2023.2.2",
-      "sha256": "3733f1968925681a693a09053e62ba4a800b51a062f5e9772658a5fba82d2fa8",
-      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.2.2.dmg",
+      "version": "2023.2.3",
+      "sha256": "918bb2061d623f736c73b67db929ced2a83013f64d57406af09f5c9df9c7d8cd",
+      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.2.3.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "232.9921.42"
+      "build_number": "232.10072.28"
     }
   },
   "aarch64-darwin": {
@@ -268,11 +268,11 @@
     "goland": {
       "update-channel": "GoLand RELEASE",
       "url-template": "https://download.jetbrains.com/go/goland-{version}-aarch64.dmg",
-      "version": "2023.2.2",
-      "sha256": "b8343e424f1c954ef2c8db7dabc4aaad63d055aa7a4b572773dbeeab43463007",
-      "url": "https://download.jetbrains.com/go/goland-2023.2.2-aarch64.dmg",
+      "version": "2023.2.3",
+      "sha256": "3ad91c136fd840dbc596f2873ccc4c2df14f7ec2a435f8a61acfdc3a97660e32",
+      "url": "https://download.jetbrains.com/go/goland-2023.2.3-aarch64.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "232.9921.53"
+      "build_number": "232.10072.27"
     },
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
@@ -349,11 +349,11 @@
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webstorm/WebStorm-{version}-aarch64.dmg",
-      "version": "2023.2.2",
-      "sha256": "27ae504b6ee24df28d29f59602c893c2b9af9357e4cc1e20dab22753177508db",
-      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.2.2-aarch64.dmg",
+      "version": "2023.2.3",
+      "sha256": "8811624166bf11d591bcf24fee0087861c3193a79aecb7159cced17737d88517",
+      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.2.3-aarch64.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "232.9921.42"
+      "build_number": "232.10072.28"
     }
   }
 }

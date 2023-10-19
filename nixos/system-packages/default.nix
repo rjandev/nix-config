@@ -5,6 +5,9 @@
     ./development.nix
     ./nixos.nix
   ];
+
+  services.udev.packages = [ pkgs.vial ];
+
   environment.systemPackages = with pkgs; [ # #
     brave
     alacritty
@@ -12,6 +15,7 @@
     signal-desktop
     ncdu
     playerctl
+    vial
   ];
 
   programs.vim.defaultEditor = true;

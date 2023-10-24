@@ -22,10 +22,10 @@
       "update-channel": "Gateway EAP",
       "url-template": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-{version}.tar.gz",
       "version": "2023.3 EAP",
-      "sha256": "bd040e8b77d2869263682faedb9f7144f9d98bbd8697da1935eeedc987f754ee",
-      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.9802.16.tar.gz",
+      "sha256": "5705744d0a99fbb65890c608f14a799353217b871d3676e6cc4a6ddfeb0220c5",
+      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.10527.20.tar.gz",
       "version-major-minor": "2022.3",
-      "build_number": "233.9802.16"
+      "build_number": "233.10527.20"
     },
     "goland": {
       "update-channel": "GoLand RELEASE",
@@ -141,10 +141,10 @@
       "update-channel": "Gateway EAP",
       "url-template": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-{version}.dmg",
       "version": "2023.3 EAP",
-      "sha256": "b7430755d3d56c8d3350c89c7dc5813a4e1a62c8ac2e408707a98d3848f08b1e",
-      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.9802.16.dmg",
+      "sha256": "89e7118f1ed7ce0f169d6ffbc0ecfb1c05141775857e23106e95b1b2b92bd4f8",
+      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.10527.20.dmg",
       "version-major-minor": "2022.3",
-      "build_number": "233.9802.16"
+      "build_number": "233.10527.20"
     },
     "goland": {
       "update-channel": "GoLand RELEASE",
@@ -260,10 +260,10 @@
       "update-channel": "Gateway EAP",
       "url-template": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-{version}-aarch64.dmg",
       "version": "2023.3 EAP",
-      "sha256": "3730d8c96fa953ecdf012810d12a8dd277b2b869b9b0d61d54b36c4d13d3c93f",
-      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.9802.16-aarch64.dmg",
+      "sha256": "672a1602619715b1e0bd6e63c8249338b05cbc8a81bd93ab755eb5225727aba5",
+      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.10527.20-aarch64.dmg",
       "version-major-minor": "2022.3",
-      "build_number": "233.9802.16"
+      "build_number": "233.10527.20"
     },
     "goland": {
       "update-channel": "GoLand RELEASE",

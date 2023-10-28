@@ -22,19 +22,19 @@
       "update-channel": "Gateway EAP",
       "url-template": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-{version}.tar.gz",
       "version": "2023.3 EAP",
-      "sha256": "5705744d0a99fbb65890c608f14a799353217b871d3676e6cc4a6ddfeb0220c5",
-      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.10527.20.tar.gz",
+      "sha256": "67062f9cfb39f91751c98010a3fd3e72a28774e4bdbb3e3b4da9b69bacac0115",
+      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.11361.10.tar.gz",
       "version-major-minor": "2022.3",
-      "build_number": "233.10527.20"
+      "build_number": "233.11361.10"
     },
     "goland": {
       "update-channel": "GoLand RELEASE",
       "url-template": "https://download.jetbrains.com/go/goland-{version}.tar.gz",
-      "version": "2023.2.3",
-      "sha256": "b34fd9a42d82bcc61052f72ed75f6c1e1d7e37163de38933ee0f124ef6e6bb60",
-      "url": "https://download.jetbrains.com/go/goland-2023.2.3.tar.gz",
+      "version": "2023.2.4",
+      "sha256": "364b12fa2e68c3156874511010065da46082d9dd1c1767a05960e29129dc8ba0",
+      "url": "https://download.jetbrains.com/go/goland-2023.2.4.tar.gz",
       "version-major-minor": "2022.2",
-      "build_number": "232.10072.27"
+      "build_number": "232.10203.20"
     },
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
@@ -102,11 +102,11 @@
     "ruby-mine": {
       "update-channel": "RubyMine RELEASE",
       "url-template": "https://download.jetbrains.com/ruby/RubyMine-{version}.tar.gz",
-      "version": "2023.2.3",
-      "sha256": "068b8c486cd61755787538ea036608a9aa590a3b49cd9003dd5edce28d322c02",
-      "url": "https://download.jetbrains.com/ruby/RubyMine-2023.2.3.tar.gz",
+      "version": "2023.2.4",
+      "sha256": "c03bb85558b57e10e018525ecf7afcbb1079aea8f406d187d6646c85de6d20be",
+      "url": "https://download.jetbrains.com/ruby/RubyMine-2023.2.4.tar.gz",
       "version-major-minor": "2022.1",
-      "build_number": "232.10072.21"
+      "build_number": "232.10203.15"
     },
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
@@ -141,19 +141,19 @@
       "update-channel": "Gateway EAP",
       "url-template": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-{version}.dmg",
       "version": "2023.3 EAP",
-      "sha256": "89e7118f1ed7ce0f169d6ffbc0ecfb1c05141775857e23106e95b1b2b92bd4f8",
-      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.10527.20.dmg",
+      "sha256": "6eee755a4a524aaf149c2a00f24c45c793ace64d6af827694abb99b1af7baec3",
+      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.11361.10.dmg",
       "version-major-minor": "2022.3",
-      "build_number": "233.10527.20"
+      "build_number": "233.11361.10"
     },
     "goland": {
       "update-channel": "GoLand RELEASE",
       "url-template": "https://download.jetbrains.com/go/goland-{version}.dmg",
-      "version": "2023.2.3",
-      "sha256": "5e78a73a69481fd63ad53d99371b3e7e534731c6116ee6d7fee127c533bc644a",
-      "url": "https://download.jetbrains.com/go/goland-2023.2.3.dmg",
+      "version": "2023.2.4",
+      "sha256": "7b5c114d4d370bd586d1d5af0c191fac473ca90f4bea1a3335775dbd63644072",
+      "url": "https://download.jetbrains.com/go/goland-2023.2.4.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "232.10072.27"
+      "build_number": "232.10203.20"
     },
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
@@ -221,11 +221,11 @@
     "ruby-mine": {
       "update-channel": "RubyMine RELEASE",
       "url-template": "https://download.jetbrains.com/ruby/RubyMine-{version}.dmg",
-      "version": "2023.2.3",
-      "sha256": "eb0db28facbe7aed6de99dc97053cdfbeea845ce73b6b9efa6c95caaf68204e9",
-      "url": "https://download.jetbrains.com/ruby/RubyMine-2023.2.3.dmg",
+      "version": "2023.2.4",
+      "sha256": "06ef99c3fbd32e7a1ce28921a91fe217125f847609d8b85e17dd8c1d180bfbf7",
+      "url": "https://download.jetbrains.com/ruby/RubyMine-2023.2.4.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "232.10072.21"
+      "build_number": "232.10203.15"
     },
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
@@ -260,19 +260,19 @@
       "update-channel": "Gateway EAP",
       "url-template": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-{version}-aarch64.dmg",
       "version": "2023.3 EAP",
-      "sha256": "672a1602619715b1e0bd6e63c8249338b05cbc8a81bd93ab755eb5225727aba5",
-      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.10527.20-aarch64.dmg",
+      "sha256": "9a6559d7b439528257ce7024709e7ed1b144466c821e25efd734ce6770a1c3ef",
+      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.11361.10-aarch64.dmg",
       "version-major-minor": "2022.3",
-      "build_number": "233.10527.20"
+      "build_number": "233.11361.10"
     },
     "goland": {
       "update-channel": "GoLand RELEASE",
       "url-template": "https://download.jetbrains.com/go/goland-{version}-aarch64.dmg",
-      "version": "2023.2.3",
-      "sha256": "3ad91c136fd840dbc596f2873ccc4c2df14f7ec2a435f8a61acfdc3a97660e32",
-      "url": "https://download.jetbrains.com/go/goland-2023.2.3-aarch64.dmg",
+      "version": "2023.2.4",
+      "sha256": "5344745ef71002a9396964dd590adc1e50bdf07ec7ecf8ce9bd810a3e297a2aa",
+      "url": "https://download.jetbrains.com/go/goland-2023.2.4-aarch64.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "232.10072.27"
+      "build_number": "232.10203.20"
     },
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
@@ -340,11 +340,11 @@
     "ruby-mine": {
       "update-channel": "RubyMine RELEASE",
       "url-template": "https://download.jetbrains.com/ruby/RubyMine-{version}-aarch64.dmg",
-      "version": "2023.2.3",
-      "sha256": "db571f72488e299d700670c546fb5ae9e1b1bc1eff3f2b26ef8520a22b1fb407",
-      "url": "https://download.jetbrains.com/ruby/RubyMine-2023.2.3-aarch64.dmg",
+      "version": "2023.2.4",
+      "sha256": "ea8891e75910975cd6bd8387d596d896cf43411f1e349fb3f936c4a0458a6607",
+      "url": "https://download.jetbrains.com/ruby/RubyMine-2023.2.4-aarch64.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "232.10072.21"
+      "build_number": "232.10203.15"
     },
     "webstorm": {
       "update-channel": "WebStorm RELEASE",

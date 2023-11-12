@@ -26,6 +26,7 @@
     gradle
     yarn
     nodejs
+    unstable.jetbrains.rust-rover
   ];
 
   programs.java = { enable = true; };

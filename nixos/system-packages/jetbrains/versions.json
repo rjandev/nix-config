@@ -111,11 +111,11 @@
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webstorm/WebStorm-{version}.tar.gz",
-      "version": "2023.2.4",
-      "sha256": "0594d7279232eaa162a4091c16a74987f6d6b78e6d630f6be76acae881c9d083",
-      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.2.4.tar.gz",
+      "version": "2023.2.5",
+      "sha256": "1ca1dbaac68b053752bf43479e522ae1c22be2ec28deb8903fc05ca915416f15",
+      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.2.5.tar.gz",
       "version-major-minor": "2022.1",
-      "build_number": "232.10203.14"
+      "build_number": "232.10227.9"
     }
   },
   "x86_64-darwin": {
@@ -230,11 +230,11 @@
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webstorm/WebStorm-{version}.dmg",
-      "version": "2023.2.4",
-      "sha256": "70f751c7f5fd9c3d3af7a3f4ef9a55f08bf895c8a43f776aebc10255a3a130e0",
-      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.2.4.dmg",
+      "version": "2023.2.5",
+      "sha256": "d22523f30776b357098c62e296c8b6a5a3bdbcf86a62246f510792c4cd090189",
+      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.2.5.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "232.10203.14"
+      "build_number": "232.10227.9"
     }
   },
   "aarch64-darwin": {
@@ -349,11 +349,11 @@
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webstorm/WebStorm-{version}-aarch64.dmg",
-      "version": "2023.2.4",
-      "sha256": "4fae9ae2fbd319ae3597e6da3da0e7973b82bad95afddce7264632b067f23e54",
-      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.2.4-aarch64.dmg",
+      "version": "2023.2.5",
+      "sha256": "00dc50805e6685ae63f4fe54dcc0289f94ccfa81daead374f8fec1b1303b746a",
+      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.2.5-aarch64.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "232.10203.14"
+      "build_number": "232.10227.9"
     }
   }
 }

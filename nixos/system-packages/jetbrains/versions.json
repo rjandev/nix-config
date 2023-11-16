@@ -22,19 +22,19 @@
       "update-channel": "Gateway EAP",
       "url-template": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-{version}.tar.gz",
       "version": "2023.3 Beta",
-      "sha256": "a352841d169fc4602905cf5d4e27dac2e76c18980ef722ccecef9cbebfec9737",
-      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.11799.6.tar.gz",
+      "sha256": "c1e89fb2415ee91d0bd21b5e78655ff29e39de5de0109e53bd8b58cfedcc4ee9",
+      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.11799.30.tar.gz",
       "version-major-minor": "2022.3",
-      "build_number": "233.11799.6"
+      "build_number": "233.11799.30"
     },
     "goland": {
       "update-channel": "GoLand RELEASE",
       "url-template": "https://download.jetbrains.com/go/goland-{version}.tar.gz",
-      "version": "2023.2.4",
-      "sha256": "364b12fa2e68c3156874511010065da46082d9dd1c1767a05960e29129dc8ba0",
-      "url": "https://download.jetbrains.com/go/goland-2023.2.4.tar.gz",
+      "version": "2023.2.5",
+      "sha256": "71e683c71503ba232c7c2e60cb969b86e105b164d6af954acaace854b2a08607",
+      "url": "https://download.jetbrains.com/go/goland-2023.2.5.tar.gz",
       "version-major-minor": "2022.2",
-      "build_number": "232.10203.20"
+      "build_number": "232.10227.11"
     },
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
@@ -141,19 +141,19 @@
       "update-channel": "Gateway EAP",
       "url-template": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-{version}.dmg",
       "version": "2023.3 Beta",
-      "sha256": "7965ba4d3e54e38974ec8b90a67e0a8a9d221edf3230990075039f01a5555678",
-      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.11799.6.dmg",
+      "sha256": "8d6d3b193b5fa73cccfb503022f6e19476383335c6ff130e59978e92d9349912",
+      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.11799.30.dmg",
       "version-major-minor": "2022.3",
-      "build_number": "233.11799.6"
+      "build_number": "233.11799.30"
     },
     "goland": {
       "update-channel": "GoLand RELEASE",
       "url-template": "https://download.jetbrains.com/go/goland-{version}.dmg",
-      "version": "2023.2.4",
-      "sha256": "7b5c114d4d370bd586d1d5af0c191fac473ca90f4bea1a3335775dbd63644072",
-      "url": "https://download.jetbrains.com/go/goland-2023.2.4.dmg",
+      "version": "2023.2.5",
+      "sha256": "c65401f721fa59284d14501b669bab52ad8ceca574820bef61602993901e675f",
+      "url": "https://download.jetbrains.com/go/goland-2023.2.5.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "232.10203.20"
+      "build_number": "232.10227.11"
     },
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
@@ -260,19 +260,19 @@
       "update-channel": "Gateway EAP",
       "url-template": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-{version}-aarch64.dmg",
       "version": "2023.3 Beta",
-      "sha256": "f51653b692920d9621c57d1f89dfca69745253991b9d04bcc3bb583dd99753e1",
-      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.11799.6-aarch64.dmg",
+      "sha256": "3b877ee64e3ea3f88e91a3ae147d4c8150a3c916c863d32f6c4f0f88ca14cd0a",
+      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.11799.30-aarch64.dmg",
       "version-major-minor": "2022.3",
-      "build_number": "233.11799.6"
+      "build_number": "233.11799.30"
     },
     "goland": {
       "update-channel": "GoLand RELEASE",
       "url-template": "https://download.jetbrains.com/go/goland-{version}-aarch64.dmg",
-      "version": "2023.2.4",
-      "sha256": "5344745ef71002a9396964dd590adc1e50bdf07ec7ecf8ce9bd810a3e297a2aa",
-      "url": "https://download.jetbrains.com/go/goland-2023.2.4-aarch64.dmg",
+      "version": "2023.2.5",
+      "sha256": "d2890f587271cff140aab2ea1b8d09b4a02b82f2bacde7716435ec92d18cf37c",
+      "url": "https://download.jetbrains.com/go/goland-2023.2.5-aarch64.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "232.10203.20"
+      "build_number": "232.10227.11"
     },
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",

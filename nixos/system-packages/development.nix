@@ -27,8 +27,9 @@
     yarn
     nodejs
     unstable.jetbrains.rust-rover
+    gcc
+    rustup
     rustc
-    cargo
   ];
 
   programs.java = { enable = true; };

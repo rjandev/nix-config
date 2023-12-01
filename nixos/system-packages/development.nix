@@ -12,7 +12,7 @@
     (self: super: {
       gradle = super.gradle.override {
         java = super.jdk;
-        javaToolchains = [ super.jdk super.jdk17 ];
+        javaToolchains = [ super.jdk super.jdk17 super.jdk21 ];
       };
     })
   ];
@@ -23,6 +23,7 @@
     kotlin
     jdk
     jdk17
+    jdk21
     gradle
     yarn
     nodejs

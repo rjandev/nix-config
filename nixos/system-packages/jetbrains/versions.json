@@ -21,11 +21,11 @@
     "gateway": {
       "update-channel": "Gateway EAP",
       "url-template": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-{version}.tar.gz",
-      "version": "2023.3 Beta",
-      "sha256": "cb0d7d7a4b537b48fa4a0ffd223adadc974ea5a82d44ab5f19e722743830ef7b",
-      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.11799.72.tar.gz",
+      "version": "2023.3 RC",
+      "sha256": "c4c89a0fccbc625e0b145a50b310a5faaacc3fa7b8dca8f5ab4bcd7a03ef1b6e",
+      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.11799.206.tar.gz",
       "version-major-minor": "2022.3",
-      "build_number": "233.11799.72"
+      "build_number": "233.11799.206"
     },
     "goland": {
       "update-channel": "GoLand RELEASE",
@@ -140,11 +140,11 @@
     "gateway": {
       "update-channel": "Gateway EAP",
       "url-template": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-{version}.dmg",
-      "version": "2023.3 Beta",
-      "sha256": "b9ba231c1c207f93a0b21725d4f345a01c6e70f08b59882d61b6d85076a1d0d2",
-      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.11799.72.dmg",
+      "version": "2023.3 RC",
+      "sha256": "6d18e3eaa90ab7570e8bc0455dc61cd3d9764db2f1cec885ea86a46e5e4bf8bb",
+      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.11799.206.dmg",
       "version-major-minor": "2022.3",
-      "build_number": "233.11799.72"
+      "build_number": "233.11799.206"
     },
     "goland": {
       "update-channel": "GoLand RELEASE",
@@ -259,11 +259,11 @@
     "gateway": {
       "update-channel": "Gateway EAP",
       "url-template": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-{version}-aarch64.dmg",
-      "version": "2023.3 Beta",
-      "sha256": "849c6fac22898e1fc431591c15977f4db3bdd66f2b37a9e67aba73165b8a9af7",
-      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.11799.72-aarch64.dmg",
+      "version": "2023.3 RC",
+      "sha256": "9613d813fe91e6184f61379905d43ab95b81a22c29a2d5bd6f67a00d0996e5ef",
+      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-233.11799.206-aarch64.dmg",
       "version-major-minor": "2022.3",
-      "build_number": "233.11799.72"
+      "build_number": "233.11799.206"
     },
     "goland": {
       "update-channel": "GoLand RELEASE",

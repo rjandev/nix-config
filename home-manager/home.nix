@@ -78,4 +78,17 @@
     };
   };
 
+  programs.bash = {
+    enable = true;
+    enableCompletion = true;
+    bashrcExtra = ''
+      if command -v fzf-share >/dev/null; then
+        source "$(fzf-share)/key-bindings.bash"
+        source "$(fzf-share)/completion.bash"
+        source "${pkgs.fzf-git-sh}/share/fzf-git-sh/fzf-git.sh"
+        source "${pkgs.fzf-obc}/share/fzf-obc/bin/fzf-obc.bash"
+      fi
+    '';
+  };
+
 }

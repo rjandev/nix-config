@@ -16,6 +16,9 @@
     ncdu
     playerctl
     vial
+    fzf
+    fzf-obc
+    fzf-git-sh
   ];
 
   programs.vim.defaultEditor = true;

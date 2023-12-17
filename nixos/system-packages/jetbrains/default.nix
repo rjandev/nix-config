@@ -24,13 +24,6 @@ let
 in {
 
   imports = [ ];
-  environment = {
-    systemPackages = with pkgs;
-      customizeJetbrains ([
-        (jetbrains.idea-ultimate.overrideAttrs (oldAttrs: rec {
-          src = pkgs.fetchurl rec { url = (lib.replaceStrings [ "-no-jbr" ] [ "" ] oldAttrs.src.url); };
-        }))
-      ]);
-  };
+  environment = { systemPackages = with pkgs; customizeJetbrains ([ (jetbrains.idea-ultimate) ]); };
 
 }

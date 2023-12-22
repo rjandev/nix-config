@@ -78,6 +78,12 @@
     };
   };
 
+  home.packages = [ # #
+    pkgs.fzf
+    pkgs.fzf-obc
+    pkgs.fzf-git-sh
+  ];
+
   programs.bash = {
     enable = true;
     enableCompletion = true;

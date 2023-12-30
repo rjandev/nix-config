@@ -4,6 +4,7 @@
   imports = [ # Include other packages within this folder
     ./development.nix
     ./nixos.nix
+    ./mounts.nix
   ];
 
   services.udev.packages = [ pkgs.vial ];

@@ -16,6 +16,8 @@
     ncdu
     playerctl
     vial
+    xfce.thunar
+    xfce.thunar-volman
   ];
 
   programs.vim.defaultEditor = true;

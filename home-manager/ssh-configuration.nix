@@ -10,16 +10,16 @@ let
       IdentitiesOnly yes
 
     Host gitlab.com
-          HostName gitlab.com
-          User git
-          IdentityFile ~/.ssh/gitlab-ssh.pub
-          IdentitiesOnly yes
+      HostName gitlab.com
+      User git
+      IdentityFile ~/.ssh/gitlab-ssh.pub
+      IdentitiesOnly yes
 
     Host raspberrypi
-          HostName raspberrypi
-          User pi
-          IdentityFile ~/.ssh/raspberry3b-ssh.pub
-          IdentitiesOnly yes
+      HostName 192.168.178.36
+      User pi
+      IdentityFile ~/.ssh/raspberry3b-ssh.pub
+      IdentitiesOnly yes
 
     Host *
       IdentityAgent ~/.1password/agent.sock

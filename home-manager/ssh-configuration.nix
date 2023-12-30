@@ -23,6 +23,7 @@ let
 
     Host *
       IdentityAgent ~/.1password/agent.sock
+      SetEnv TERM=xterm
   '';
 
 in {

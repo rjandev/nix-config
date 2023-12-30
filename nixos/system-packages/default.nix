@@ -18,6 +18,7 @@
     vial
     xfce.thunar
     xfce.thunar-volman
+    bat
   ];
 
   programs.vim.defaultEditor = true;

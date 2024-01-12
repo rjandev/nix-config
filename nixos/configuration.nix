@@ -27,6 +27,7 @@
     ./gpg.nix
     ./ledger-live.nix
     ./nvidia.nix
+    ./fingerprint.nix
   ];
 
   # Bootloader.

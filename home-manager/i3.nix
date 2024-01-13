@@ -5,7 +5,7 @@ let
   home = pkgs.home-manager;
 in {
 
-  imports = [ ./i3status.nix ];
+  imports = [ ./i3status.nix ./dunst.nix ];
 
   xsession = {
     enable = true;

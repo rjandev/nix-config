@@ -5,6 +5,8 @@ let
   home = pkgs.home-manager;
 in {
 
+  imports = [ ./i3status.nix ];
+
   xsession = {
     enable = true;
     initExtra = ''

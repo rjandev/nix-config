@@ -5,7 +5,7 @@ let
   home = pkgs.home-manager;
 in {
 
-  imports = [ ./i3status.nix ./dunst.nix ];
+  imports = [ ./polybar/polybar.nix ./dunst.nix ];
 
   xsession = {
     enable = true;
@@ -30,6 +30,8 @@ in {
 
     # The combination of xss-lock, nm-applet and pactl is a popular choice, so
     # they are included here as an example. Modify as you see fit.
+
+    exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
     # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
     # screen before suspend. Use loginctl lock-session to lock your screen.
@@ -193,24 +195,6 @@ in {
     set $green   #50fa7b
     set $magenta #ff79c6
     set $purple  #bd93f9
-
-    # Start i3bar to display a workspace bar (plus the system information i3status
-    # finds out, if available)
-    bar {
-            status_command i3blocks
-            position top
-    	i3bar_command i3bar -t
-    	font pango: Jetbrains mono # SauceCodePro Nerd Font Black 10
-    	colors
-    	{
-        #                   Border Background Text
-    		focused_workspace   $fg    $fg        $bg
-    		active_workspace    $bg    $bg        $purple
-    		inactive_workspace  $bg    $bg        $cyan
-    		urgent_workspace    $bg    $bg        $magenta
-    		background          $bg
-     	}
-    }
 
     for_window [class=".*"] border pixel 1
 

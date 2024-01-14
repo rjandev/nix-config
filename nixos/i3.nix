@@ -23,12 +23,14 @@
     windowManager.i3 = {
       package = pkgs.i3-gaps;
       enable = true;
-      extraPackages = with pkgs; [
-        j4-dmenu-desktop
-        i3status
-        i3lock
-        i3blocks # if you are planning on using i3blocks over i3status
-      ];
+      extraPackages = with pkgs; [ j4-dmenu-desktop i3lock ];
     };
   };
+
+  environment.systemPackages = with pkgs;
+    let polybar = pkgs.polybar.override { i3Support = true; };
+    in [
+      polybar
+      # the rest of your packages
+    ];
 }

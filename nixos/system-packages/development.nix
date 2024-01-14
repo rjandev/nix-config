@@ -17,9 +17,10 @@
     })
   ];
 
+  fonts.packages = with pkgs; [ jetbrains-mono ];
+
   environment.systemPackages = with pkgs; [ # #
     git
-    jetbrains-mono
     kotlin
     jdk
     jdk17

@@ -30,11 +30,11 @@
     "goland": {
       "update-channel": "GoLand RELEASE",
       "url-template": "https://download.jetbrains.com/go/goland-{version}.tar.gz",
-      "version": "2023.3.2",
-      "sha256": "d11c9ff18323f121eeb643bd093cd4cc9b3ca5f64e1e1dbe4b9b8139217032d1",
-      "url": "https://download.jetbrains.com/go/goland-2023.3.2.tar.gz",
+      "version": "2023.3.3",
+      "sha256": "18a692790f0d4e2d40cedebb954aed074f72bb67ba4bdb63b7a4cb4df2c216c7",
+      "url": "https://download.jetbrains.com/go/goland-2023.3.3.tar.gz",
       "version-major-minor": "2022.2",
-      "build_number": "233.13135.104"
+      "build_number": "233.14015.113"
     },
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
@@ -66,29 +66,29 @@
     "phpstorm": {
       "update-channel": "PhpStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webide/PhpStorm-{version}.tar.gz",
-      "version": "2023.3.2",
-      "sha256": "b8e2cb8938f148f8cf4f5fe80c3173365b1a20b834f49b50187654750b7e2f5d",
-      "url": "https://download.jetbrains.com/webide/PhpStorm-2023.3.2.tar.gz",
+      "version": "2023.3.3",
+      "sha256": "83fae32882fdb58495f740d9e7a7d223186f2f80325892cc3cd7edad39bd200f",
+      "url": "https://download.jetbrains.com/webide/PhpStorm-2023.3.3.tar.gz",
       "version-major-minor": "2022.1",
-      "build_number": "233.13135.108"
+      "build_number": "233.14015.96"
     },
     "pycharm-community": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-community-{version}.tar.gz",
-      "version": "2023.3.2",
-      "sha256": "1a4a95648c68890f2f9eb41cbb9eb041dcd08388c75a91298dfbe73f83a858c8",
-      "url": "https://download.jetbrains.com/python/pycharm-community-2023.3.2.tar.gz",
+      "version": "2023.3.3",
+      "sha256": "f71513f428f5df3b97b09c415967ff2db3a4e7172f293e621b3f04cd1d695443",
+      "url": "https://download.jetbrains.com/python/pycharm-community-2023.3.3.tar.gz",
       "version-major-minor": "2022.2",
-      "build_number": "233.13135.95"
+      "build_number": "233.13763.11"
     },
     "pycharm-professional": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-professional-{version}.tar.gz",
-      "version": "2023.3.2",
-      "sha256": "add6cb45aed969a49b21322fbd2e34c896f2a618d2a9eb8c865a05602365ef6c",
-      "url": "https://download.jetbrains.com/python/pycharm-professional-2023.3.2.tar.gz",
+      "version": "2023.3.3",
+      "sha256": "29c4955410b2ea26f0cd0f44e02c8fe2b1b7dad075f0739652051faa6f84797b",
+      "url": "https://download.jetbrains.com/python/pycharm-professional-2023.3.3.tar.gz",
       "version-major-minor": "2022.2",
-      "build_number": "233.13135.95"
+      "build_number": "233.13763.11"
     },
     "rider": {
       "update-channel": "Rider RELEASE",
@@ -111,11 +111,11 @@
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webstorm/WebStorm-{version}.tar.gz",
-      "version": "2023.3.2",
-      "sha256": "c4d69ebdb24bf8d84b406afc65ff34d6b7c22fd461df92c5fe32e5e3c88502a7",
-      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.3.2.tar.gz",
+      "version": "2023.3.3",
+      "sha256": "c56ece93853aff41bc4b1fa7c40be086c8d0cb8346891ecd47a70c3978c66cd3",
+      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.3.3.tar.gz",
       "version-major-minor": "2022.1",
-      "build_number": "233.13135.92"
+      "build_number": "233.14015.89"
     }
   },
   "x86_64-darwin": {
@@ -149,11 +149,11 @@
     "goland": {
       "update-channel": "GoLand RELEASE",
       "url-template": "https://download.jetbrains.com/go/goland-{version}.dmg",
-      "version": "2023.3.2",
-      "sha256": "36c18551deb5e249896bd56b405e1fa4a29e48b6b203eecbe7875f0f83468121",
-      "url": "https://download.jetbrains.com/go/goland-2023.3.2.dmg",
+      "version": "2023.3.3",
+      "sha256": "2e459e390988e2d196add580c8cbfce8132ef0a4d55709d7495cb65a195ed4f9",
+      "url": "https://download.jetbrains.com/go/goland-2023.3.3.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "233.13135.104"
+      "build_number": "233.14015.113"
     },
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
@@ -185,29 +185,29 @@
     "phpstorm": {
       "update-channel": "PhpStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webide/PhpStorm-{version}.dmg",
-      "version": "2023.3.2",
-      "sha256": "a55592cd5e6122f75446588f7c1ea5372aed2f16bab7e188e53291e697ac04ae",
-      "url": "https://download.jetbrains.com/webide/PhpStorm-2023.3.2.dmg",
+      "version": "2023.3.3",
+      "sha256": "082d432eb363b274fa4eea2f743518dfcf29deb0e7be34f64152d5b114415daf",
+      "url": "https://download.jetbrains.com/webide/PhpStorm-2023.3.3.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "233.13135.108"
+      "build_number": "233.14015.96"
     },
     "pycharm-community": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-community-{version}.dmg",
-      "version": "2023.3.2",
-      "sha256": "f0ad33ac5e0e90befa47499376e583ab28f5fe67ce0cd5f823abda7b9dce8219",
-      "url": "https://download.jetbrains.com/python/pycharm-community-2023.3.2.dmg",
+      "version": "2023.3.3",
+      "sha256": "b42894264cf0f14fe5a93807999c89870c6709e3f1edf9d629ea74c151825451",
+      "url": "https://download.jetbrains.com/python/pycharm-community-2023.3.3.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "233.13135.95"
+      "build_number": "233.13763.11"
     },
     "pycharm-professional": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-professional-{version}.dmg",
-      "version": "2023.3.2",
-      "sha256": "9932498fa5287c86ccc838b0b4421990cf4c15156ccd387a5e6b6f9cf8c1346f",
-      "url": "https://download.jetbrains.com/python/pycharm-professional-2023.3.2.dmg",
+      "version": "2023.3.3",
+      "sha256": "c86b6e279ac6a82ce79e187c96b671c1b3bbb6cc2c7c5686454705316b398e9c",
+      "url": "https://download.jetbrains.com/python/pycharm-professional-2023.3.3.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "233.13135.95"
+      "build_number": "233.13763.11"
     },
     "rider": {
       "update-channel": "Rider RELEASE",
@@ -230,11 +230,11 @@
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webstorm/WebStorm-{version}.dmg",
-      "version": "2023.3.2",
-      "sha256": "2f2892f443f2c8a77cf19fdc85a9a5e791d1293cb9901df9549628699079a962",
-      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.3.2.dmg",
+      "version": "2023.3.3",
+      "sha256": "e576a6adeda21bff4eb4bb7d250bb30ba4e773e9bd8728b05fa6d6dc6eea6756",
+      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.3.3.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "233.13135.92"
+      "build_number": "233.14015.89"
     }
   },
   "aarch64-darwin": {
@@ -268,11 +268,11 @@
     "goland": {
       "update-channel": "GoLand RELEASE",
       "url-template": "https://download.jetbrains.com/go/goland-{version}-aarch64.dmg",
-      "version": "2023.3.2",
-      "sha256": "28669ecf701dd4b60f86218e9f96de0839536b1623dfb42186fd5bb54541b69c",
-      "url": "https://download.jetbrains.com/go/goland-2023.3.2-aarch64.dmg",
+      "version": "2023.3.3",
+      "sha256": "4b192b5a59d86ca8f20377d7905e8a91aa1f53e99bb868ff74d9d0959b54d9c4",
+      "url": "https://download.jetbrains.com/go/goland-2023.3.3-aarch64.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "233.13135.104"
+      "build_number": "233.14015.113"
     },
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
@@ -304,29 +304,29 @@
     "phpstorm": {
       "update-channel": "PhpStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webide/PhpStorm-{version}-aarch64.dmg",
-      "version": "2023.3.2",
-      "sha256": "10713f0b4c8741bd940c650a3e2b084f69d7e3e7e910d81e6b52bd30545407e9",
-      "url": "https://download.jetbrains.com/webide/PhpStorm-2023.3.2-aarch64.dmg",
+      "version": "2023.3.3",
+      "sha256": "052bf5e1676410b0ce25574c57c56470ee3d2d8f4b0d776c1de6bb841a6eb3bd",
+      "url": "https://download.jetbrains.com/webide/PhpStorm-2023.3.3-aarch64.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "233.13135.108"
+      "build_number": "233.14015.96"
     },
     "pycharm-community": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-community-{version}-aarch64.dmg",
-      "version": "2023.3.2",
-      "sha256": "9c6efca8ded53bf3470631c96833eb093299efd98ddd121e6b7600b202216704",
-      "url": "https://download.jetbrains.com/python/pycharm-community-2023.3.2-aarch64.dmg",
+      "version": "2023.3.3",
+      "sha256": "1e4dd6fb00d7557ba381406279818a3e7892027eff0fbb1b6cdf4b112c47899e",
+      "url": "https://download.jetbrains.com/python/pycharm-community-2023.3.3-aarch64.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "233.13135.95"
+      "build_number": "233.13763.11"
     },
     "pycharm-professional": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-professional-{version}-aarch64.dmg",
-      "version": "2023.3.2",
-      "sha256": "7acf9a37a34792766776897020e64a73984734d331986eae83ba65fca9482818",
-      "url": "https://download.jetbrains.com/python/pycharm-professional-2023.3.2-aarch64.dmg",
+      "version": "2023.3.3",
+      "sha256": "84fb09938539dc2f7ecfbd9be20a916cf542fc4e0b69a319d17e4180e4d6a244",
+      "url": "https://download.jetbrains.com/python/pycharm-professional-2023.3.3-aarch64.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "233.13135.95"
+      "build_number": "233.13763.11"
     },
     "rider": {
       "update-channel": "Rider RELEASE",
@@ -349,11 +349,11 @@
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webstorm/WebStorm-{version}-aarch64.dmg",
-      "version": "2023.3.2",
-      "sha256": "4b3e6dd439771e5e1b575cd68ba85200637709d34a17d0dfd2e94f33a7965e65",
-      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.3.2-aarch64.dmg",
+      "version": "2023.3.3",
+      "sha256": "30b9c45af873991c0d2dca508b42e61fa6a7ea752ac00bb93c1e519d15ef277c",
+      "url": "https://download.jetbrains.com/webstorm/WebStorm-2023.3.3-aarch64.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "233.13135.92"
+      "build_number": "233.14015.89"
     }
   }
 }

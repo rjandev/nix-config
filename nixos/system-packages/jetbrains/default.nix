@@ -12,7 +12,7 @@ let
       '';
     })).overrideAttrs (attrs:
       # replace version with the one from versions.json
-      let v = versions.linux.${attrs.pname} or { };
+      let v = versions.x86_64-linux.${attrs.pname} or { };
       in if v != { } then rec {
         src = pkgs.fetchurl rec {
           version = v.version;
@@ -20,7 +20,7 @@ let
           sha256 = v.sha256;
         };
       } else
-        attrs));
+        lib.warn "Using fallback jetbrains version." attrs));
 in {
 
   imports = [ ];

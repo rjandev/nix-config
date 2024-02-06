@@ -2,11 +2,7 @@
 
 {
 
-  imports = [
-    # install custom/latest version of jetbrains products without using unstable channel
-    ./jetbrains/default.nix
-    ./docker.nix
-  ];
+  imports = [ ./docker.nix ];
 
   nixpkgs.overlays = [
     (self: super: {
@@ -28,6 +24,7 @@
     gradle
     yarn
     nodejs
+    unstable.jetbrains.idea-ultimate
     unstable.jetbrains.rust-rover
     gcc
     rustup

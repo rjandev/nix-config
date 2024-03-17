@@ -70,12 +70,12 @@
 
   # Configure keymap in X11
   services.xserver = {
-    layout = "us";
+    layout = "de";
     xkbVariant = "";
   };
 
   # Configure console keymap
-  console.keyMap = "us";
+  console.keyMap = "de";
 
   # Enable CUPS to print documents.
   services.printing.enable = true;

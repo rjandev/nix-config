@@ -47,7 +47,7 @@
   home = {
     username = "jan";
     homeDirectory = "/home/jan";
-    keyboard.layout = "us";
+    keyboard.layout = "de";
   };
 
   # Add stuff for your user as you see fit:

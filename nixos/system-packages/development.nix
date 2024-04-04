@@ -24,7 +24,7 @@
     gradle
     yarn
     nodejs
-    unstable.jetbrains.idea-ultimate
+    rjandev.jetbrains.idea-ultimate
     unstable.jetbrains.rust-rover
     gcc
     rustup

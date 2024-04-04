@@ -20,5 +20,9 @@
       system = final.system;
       config.allowUnfree = true;
     };
+    rjandev = import inputs.nixpkgs-rjandev {
+      system = final.system;
+      config.allowUnfree = true;
+    };
   };
 }

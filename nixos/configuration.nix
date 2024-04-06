@@ -2,7 +2,7 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, inputs, outputs, ... }:
+{ config, pkgs, inputs, outputs, lib, ... }:
 
 {
   imports = [ # Include the results of the hardware scan.
@@ -113,6 +113,29 @@
     overlays = [ outputs.overlays.additions outputs.overlays.modifications outputs.overlays.unstable-packages ];
     config = { allowUnfree = true; };
   };
+
+    # This will add each flake input as a registry
+    # To make nix3 commands consistent with your flake
+    nix.registry = (lib.mapAttrs (_: flake: {inherit flake;})) ((lib.filterAttrs (_: lib.isType "flake")) inputs);
+
+    # This will additionally add your inputs to the system's legacy channels
+    # Making legacy nix commands consistent as well, awesome!
+    nix.nixPath = ["/etc/nix/path"];
+    environment.etc =
+      lib.mapAttrs'
+      (name: value: {
+        name = "nix/path/${name}";
+        value.source = value.flake;
+      })
+      config.nix.registry;
+
+    nix.settings = {
+      # Enable flakes and new 'nix' command
+      experimental-features = "nix-command flakes";
+      # Deduplicate and optimize nix store
+      auto-optimise-store = true;
+    };
+
   # List packages installed in system profile. To search, run:
   # $ nix search wget
 

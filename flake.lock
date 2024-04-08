@@ -39,11 +39,11 @@
     },
     "nixpkgs-rjandev": {
       "locked": {
-        "lastModified": 1712259120,
-        "narHash": "sha256-qIknI3UiRMVXQ2CCfGwDx/M08qqNzLamYnVyzrBJGO4=",
+        "lastModified": 1712439257,
+        "narHash": "sha256-aSpiNepFOMk9932HOax0XwNxbA38GOUVOiXfUVPOrck=",
         "owner": "rjandev",
         "repo": "nixpkgs",
-        "rev": "f19f8f896b578d26eb0e27112885998cb9ba470e",
+        "rev": "ff0dbd94265ac470dda06a657d5fe49de93b4599",
         "type": "github"
       },
       "original": {

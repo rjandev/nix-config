@@ -1,11 +1,20 @@
-{ config, lib, pkgs, ... }:
+{
+  config,
+  lib,
+  pkgs,
+  ...
+}:
 
 let
   mod = "Mod4";
   home = pkgs.home-manager;
-in {
+in
+{
 
-  imports = [ ./i3status.nix ./dunst.nix ];
+  imports = [
+    ./i3status.nix
+    ./dunst.nix
+  ];
 
   xsession = {
     enable = true;

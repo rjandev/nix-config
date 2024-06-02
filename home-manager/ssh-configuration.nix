@@ -31,12 +31,19 @@ let
       IdentityAgent ~/.1password/agent.sock
       SetEnv TERM=xterm
   '';
-
-in {
+in
+{
   home.file.".ssh/config".text = sshConfig;
-  home.file.".ssh/github-ssh.pub" = { source = ./github-ssh.pub; };
-  home.file.".ssh/gitlab-ssh.pub" = { source = ./gitlab-ssh.pub; };
-  home.file.".ssh/raspberry3b-ssh.pub" = { source = ./raspberry3b-ssh.pub; };
-  home.file.".ssh/raspberry5-ssh.pub" = { source = ./raspberry5-ssh.pub; };
+  home.file.".ssh/github-ssh.pub" = {
+    source = ./github-ssh.pub;
+  };
+  home.file.".ssh/gitlab-ssh.pub" = {
+    source = ./gitlab-ssh.pub;
+  };
+  home.file.".ssh/raspberry3b-ssh.pub" = {
+    source = ./raspberry3b-ssh.pub;
+  };
+  home.file.".ssh/raspberry5-ssh.pub" = {
+    source = ./raspberry5-ssh.pub;
+  };
 }
-

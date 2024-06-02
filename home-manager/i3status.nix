@@ -1,7 +1,14 @@
-{ config, lib, pkgs, ... }:
+{
+  config,
+  lib,
+  pkgs,
+  ...
+}:
 
-let home = pkgs.home-manager;
-in {
+let
+  home = pkgs.home-manager;
+in
+{
   home.file.".config/i3blocks/config".text = ''
     # Global properties
     separator=true

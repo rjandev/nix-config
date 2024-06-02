@@ -1,7 +1,14 @@
-{ config, lib, pkgs, ... }:
+{
+  config,
+  lib,
+  pkgs,
+  ...
+}:
 
-let home = pkgs.home-manager;
-in {
+let
+  home = pkgs.home-manager;
+in
+{
   home.file.".config/dunst/dunstrc".text = ''
     # See dunst(5) for all configuration options
 

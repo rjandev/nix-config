@@ -5,7 +5,9 @@
 
   security.polkit.enable = true;
 
-  security.pam.services.lightdm = { enableGnomeKeyring = true; };
+  security.pam.services.lightdm = {
+    enableGnomeKeyring = true;
+  };
 
   environment.systemPackages = with pkgs; [ polkit_gnome ];
 

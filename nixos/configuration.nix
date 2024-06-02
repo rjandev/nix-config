@@ -2,10 +2,18 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, inputs, outputs, lib, ... }:
+{
+  config,
+  pkgs,
+  inputs,
+  outputs,
+  lib,
+  ...
+}:
 
 {
-  imports = [ # Include the results of the hardware scan.
+  imports = [
+    # Include the results of the hardware scan.
     ./aliases.nix
     ./default-envs.nix
     ./1password-configuration.nix
@@ -30,11 +38,12 @@
   # boot.loader.grub.useOSProber = true;
 
   # setup keyfile
-  boot.initrd.secrets = { "/crypto_keyfile.bin" = null; };
+  boot.initrd.secrets = {
+    "/crypto_keyfile.bin" = null;
+  };
 
   # enable swap on luks (TODO replace UUIDs with label)
-  boot.initrd.luks.devices."luks-ad14a4a5-8740-4828-9b08-d80466e17192".device =
-    "/dev/disk/by-uuid/ad14a4a5-8740-4828-9b08-d80466e17192";
+  boot.initrd.luks.devices."luks-ad14a4a5-8740-4828-9b08-d80466e17192".device = "/dev/disk/by-uuid/ad14a4a5-8740-4828-9b08-d80466e17192";
   boot.initrd.luks.devices."luks-ad14a4a5-8740-4828-9b08-d80466e17192".keyFile = "/crypto_keyfile.bin";
 
   networking.hostName = "jan-nixos"; # Define your hostname.
@@ -104,37 +113,45 @@
   users.users.jan = {
     isNormalUser = true;
     description = "Jan";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [
+      "networkmanager"
+      "wheel"
+    ];
   };
 
   # Allow unfree packages
   nixpkgs = {
     # You can add overlays here
-    overlays = [ outputs.overlays.additions outputs.overlays.modifications outputs.overlays.unstable-packages ];
-    config = { allowUnfree = true; };
+    overlays = [
+      outputs.overlays.additions
+      outputs.overlays.modifications
+      outputs.overlays.unstable-packages
+    ];
+    config = {
+      allowUnfree = true;
+    };
   };
 
-    # This will add each flake input as a registry
-    # To make nix3 commands consistent with your flake
-    nix.registry = (lib.mapAttrs (_: flake: {inherit flake;})) ((lib.filterAttrs (_: lib.isType "flake")) inputs);
+  # This will add each flake input as a registry
+  # To make nix3 commands consistent with your flake
+  nix.registry = (lib.mapAttrs (_: flake: { inherit flake; })) (
+    (lib.filterAttrs (_: lib.isType "flake")) inputs
+  );
 
-    # This will additionally add your inputs to the system's legacy channels
-    # Making legacy nix commands consistent as well, awesome!
-    nix.nixPath = ["/etc/nix/path"];
-    environment.etc =
-      lib.mapAttrs'
-      (name: value: {
-        name = "nix/path/${name}";
-        value.source = value.flake;
-      })
-      config.nix.registry;
+  # This will additionally add your inputs to the system's legacy channels
+  # Making legacy nix commands consistent as well, awesome!
+  nix.nixPath = [ "/etc/nix/path" ];
+  environment.etc = lib.mapAttrs' (name: value: {
+    name = "nix/path/${name}";
+    value.source = value.flake;
+  }) config.nix.registry;
 
-    nix.settings = {
-      # Enable flakes and new 'nix' command
-      experimental-features = "nix-command flakes";
-      # Deduplicate and optimize nix store
-      auto-optimise-store = true;
-    };
+  nix.settings = {
+    # Enable flakes and new 'nix' command
+    experimental-features = "nix-command flakes";
+    # Deduplicate and optimize nix store
+    auto-optimise-store = true;
+  };
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
@@ -165,6 +182,4 @@
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "22.11"; # Did you read the comment?
-
 }
-

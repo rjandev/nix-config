@@ -1,7 +1,8 @@
 { config, pkgs, ... }:
 
 {
-  imports = [ # Include other packages within this folder
+  imports = [
+    # Include other packages within this folder
     ./development.nix
     ./nixos.nix
     ./mounts.nix
@@ -9,7 +10,8 @@
 
   services.udev.packages = [ pkgs.vial ];
 
-  environment.systemPackages = with pkgs; [ # #
+  environment.systemPackages = with pkgs; [
+    # #
     brave
     alacritty
     htop

@@ -1,1 +1,13 @@
-{ config, lib, pkgs, self, ... }: { environment.systemPackages = with pkgs; [ libnotify dunst ]; }
+{
+  config,
+  lib,
+  pkgs,
+  self,
+  ...
+}:
+{
+  environment.systemPackages = with pkgs; [
+    libnotify
+    dunst
+  ];
+}

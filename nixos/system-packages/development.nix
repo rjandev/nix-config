@@ -30,10 +30,12 @@
     yarn
     nodejs
     unstable.jetbrains.idea-ultimate
+    unstable.jetbrains.goland
     unstable.jetbrains.rust-rover
     gcc
     rustup
     rustc
+    go
   ];
 
   programs.java = {

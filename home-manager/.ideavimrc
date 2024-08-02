@@ -46,16 +46,20 @@ sethandler <C-A> a:ide
 nnoremap <esc> :noh<return><esc>
 nnoremap <esc>^[ <esc>^[
 
-"" custom bindings for intellij actions
+" custom bindings for intellij actions
 map <leader>r <action>(RenameElement)
 map <leader>z <action>(ToggleDistractionFreeMode)
 map <leader>s <Action>(SelectInProjectView)
-map <leader>a <Action>(Annotate) "git blame
+"git blame
+map <leader>a <Action>(Annotate)
 map <leader>h <Action>(Vcs.ShowTabbedFileHistory)
 map <leader>t <Action>(ActivateTerminalToolWindow)
-map <leader>l V<Action>(ReformatCode) " Reformat the current line only
+" Reformat the current line only
+map <leader>l V<Action>(ReformatCode)
 map <leader>b <Action>(ToggleLineBreakpoint)
 map <leader>o <Action>(FileStructurePopup)
-map <leader>i ~hi " Toggle case and start typing. E.g. `<leader>iget`: `<caret>property` -> `getProperty`
-vmap <leader>u d~h " Remove selection and toggle case. E.g. `v2l<leader>u`: `<caret>getProperty` -> `property`
+" Toggle case and start typing. E.g. `<leader>iget`: `<caret>property` -> `getProperty`
+map <leader>i ~hi
+" Remove selection and toggle case. E.g. `v2l<leader>u`: `<caret>getProperty` -> `property`
+vmap <leader>u d~h
 

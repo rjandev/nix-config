@@ -28,7 +28,7 @@
         # run garbage collector
         ncg = ifSudo "sudo nix-store --gc";
         # update all lockfile
-        nul = ifSudo "nix --extra-experimental-features nix-command --extra-experimental-features flakes flake update";
+        nul = ifSudo "nix flake update";
       };
   };
 }

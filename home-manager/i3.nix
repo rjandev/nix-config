@@ -82,6 +82,7 @@ in
     bindsym $mod+p exec --no-startup-id $LAUNCHER
 
     # change focus
+    focus_follows_mouse no
     bindsym $mod+h focus left
     bindsym $mod+j focus down
     #bindsym $mod+k focus up

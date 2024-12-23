@@ -83,6 +83,8 @@
     variant = "";
   };
 
+  services.fwupd.enable = true;
+
   # Configure console keymap
   console.keyMap = "de";
 

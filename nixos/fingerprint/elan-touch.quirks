@@ -1,0 +1,13 @@
+{
+  "quirks": [
+    {
+      "match": {
+        "usb-vendor-id": 1267,
+        "usb-product-id": 3133
+      },
+      "features": {
+        "device-type": "touch"
+      }
+    }
+  ]
+}

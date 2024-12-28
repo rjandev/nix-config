@@ -9,6 +9,10 @@
     enableGnomeKeyring = true;
   };
 
+  security.pam.services.gdm-autologin.text = ''
+    auth       optional ${config.systemd.package}/lib/security/pam_systemd_loadkey.so
+  '';
+
   environment.systemPackages = with pkgs; [ polkit_gnome ];
 
   # autostart gnome polkit agent

@@ -42,8 +42,11 @@
     "/crypto_keyfile.bin" = null;
   };
 
+  boot.initrd.systemd.enable = true;
+
   # enable swap on luks (TODO replace UUIDs with label)
-  boot.initrd.luks.devices."luks-ad14a4a5-8740-4828-9b08-d80466e17192".device = "/dev/disk/by-uuid/ad14a4a5-8740-4828-9b08-d80466e17192";
+  boot.initrd.luks.devices."luks-ad14a4a5-8740-4828-9b08-d80466e17192".device =
+    "/dev/disk/by-uuid/ad14a4a5-8740-4828-9b08-d80466e17192";
   boot.initrd.luks.devices."luks-ad14a4a5-8740-4828-9b08-d80466e17192".keyFile = "/crypto_keyfile.bin";
 
   networking.hostName = "jan-nixos"; # Define your hostname.

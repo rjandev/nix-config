@@ -5,7 +5,7 @@
 
   security.polkit.enable = true;
 
-  security.pam.services.lightdm = {
+  security.pam.services.gdm = {
     enableGnomeKeyring = true;
   };
 

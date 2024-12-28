@@ -29,7 +29,10 @@
 
       displayManager = {
         startx.enable = true;
-        lightdm.enable = true;
+        gdm = {
+          autoLogin.delay = 6;
+          enable = true;
+        };
       };
 
       windowManager.i3 = {

@@ -22,6 +22,7 @@
     xfce.thunar
     xfce.thunar-volman
     bat
+    unstable.sbctl
   ];
 
   programs.vim.enable = true;

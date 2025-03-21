@@ -33,6 +33,7 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
   boot.loader.efi.efiSysMountPoint = "/boot/efi";
+  boot.loader.systemd-boot.configurationLimit = 15;
   # boot.loader.grub.enable = true;
   # boot.loader.grub.device = "/dev/vda";
   # boot.loader.grub.useOSProber = true;

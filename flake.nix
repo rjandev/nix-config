@@ -11,8 +11,11 @@
     home-manager.url = "github:nix-community/home-manager/release-24.11";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
-    # TODO: Add any other flake you might need
-    # hardware.url = "github:nixos/nixos-hardware";
+    # Lanzaboote (secure boot)
+    lanzaboote = {
+      url = "github:nix-community/lanzaboote/v0.4.2";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -20,6 +23,7 @@
       self,
       nixpkgs,
       home-manager,
+      lanzaboote,
       ...
     }@inputs:
     let
@@ -71,6 +75,22 @@
           modules = [
             # > Our main nixos configuration file <
             ./nixos/configuration.nix
+            lanzaboote.nixosModules.lanzaboote
+            (
+              { pkgs, lib, ... }:
+              {
+                # Lanzaboote currently replaces the systemd-boot module.
+                # This setting is usually set to true in configuration.nix
+                # generated at installation time. So we force it to false
+                # for now.
+                boot.loader.systemd-boot.enable = lib.mkForce false;
+
+                boot.lanzaboote = {
+                  enable = true;
+                  pkiBundle = "/var/lib/sbctl";
+                };
+              }
+            )
           ];
         };
       };

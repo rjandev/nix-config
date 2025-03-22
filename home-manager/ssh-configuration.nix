@@ -27,6 +27,11 @@ let
       IdentityFile ~/.ssh/raspberry5-ssh.pub
       IdentitiesOnly yes
 
+    Host v2202503258756320900.quicksrv.de
+      HostName v2202503258756320900.quicksrv.de
+      IdentityFile ~/.ssh/netcup.pub
+      IdentitiesOnly yes
+
     Host *
       IdentityAgent ~/.1password/agent.sock
       SetEnv TERM=xterm
@@ -45,5 +50,8 @@ in
   };
   home.file.".ssh/raspberry5-ssh.pub" = {
     source = ./raspberry5-ssh.pub;
+  };
+  home.file.".ssh/netcup.pub" = {
+    source = ./netcup.pub;
   };
 }

@@ -41,4 +41,6 @@
   programs.java = {
     enable = true;
   };
+
+  programs.direnv.enable = true;
 }

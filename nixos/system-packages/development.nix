@@ -29,7 +29,7 @@
     gradle
     yarn
     nodejs
-    unstable.jetbrains.idea-ultimate
+    jetbrains.idea-ultimate
     unstable.jetbrains.goland
     unstable.jetbrains.rust-rover
     gcc

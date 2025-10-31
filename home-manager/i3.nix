@@ -48,7 +48,7 @@ in
     #exec_always --no-startup-id "xrandr --setprovideroutputsource modesetting NVIDIA-0 && xrandr --auto && xrandr --output DP-1 --refresh 144 && xrandr --output DVI-I-1 --right-of DP-1 && xrandr --output VGA-1-1 --left-of DP-1 --rotation left"
 
     # set screen resolution
-    exec_always --no-startup-id "xrandr --auto && xrandr --output DP-2 --refresh 120 --primary && xrandr --output DP-1 --right-of DP-2 && xrandr --output HDMI-0 --left-of DP-2"
+    exec_always --no-startup-id "xrandr --auto && xrandr --output DP-2 --mode 1920x1080 --rate 144.00 --primary && xrandr --output DP-1 --right-of DP-2 && xrandr --output HDMI-0 --left-of DP-2"
 
     # background image
     # exec_always --no-startup-id "nitrogen --restore"

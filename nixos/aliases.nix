@@ -29,6 +29,10 @@
         ncg = ifSudo "sudo nix-store --gc";
         # update all lockfile
         nul = ifSudo "nix flake update";
+
+        # k8s
+        k = "kubectl";
+        h = "helm";
       };
   };
 }

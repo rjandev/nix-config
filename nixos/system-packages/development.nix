@@ -36,6 +36,8 @@
     rustup
     rustc
     go
+    kubectl
+    kubernetes-helm
   ];
 
   programs.java = {

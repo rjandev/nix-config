@@ -31,6 +31,7 @@
     jetbrains.idea-ultimate
     unstable.jetbrains.goland
     unstable.jetbrains.rust-rover
+    jetbrains-toolbox
     gcc
     rustup
     rustc

@@ -28,7 +28,6 @@
     jdk21
     gradle
     yarn
-    nodejs
     jetbrains.idea-ultimate
     unstable.jetbrains.goland
     unstable.jetbrains.rust-rover

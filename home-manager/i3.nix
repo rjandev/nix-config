@@ -25,7 +25,7 @@ in
   };
 
   # install i3
-  home.packages = [ pkgs.i3-gaps ];
+  home.packages = [ pkgs.i3 ];
   home.file.".config/i3/config".text = ''
     set $mod Mod4
 

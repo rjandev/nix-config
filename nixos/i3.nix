@@ -19,6 +19,12 @@
       };
     };
 
+    displayManager = {
+      gdm = {
+        autoLogin.delay = 6;
+        enable = true;
+      };
+    };
     xserver = {
       enable = true;
       autorun = true;
@@ -29,14 +35,10 @@
 
       displayManager = {
         startx.enable = true;
-        gdm = {
-          autoLogin.delay = 6;
-          enable = true;
-        };
       };
 
       windowManager.i3 = {
-        package = pkgs.i3-gaps;
+        package = pkgs.i3;
         enable = true;
         extraPackages = with pkgs; [
           j4-dmenu-desktop

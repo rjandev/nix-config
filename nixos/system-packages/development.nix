@@ -28,7 +28,7 @@
     jdk21
     gradle
     yarn
-    jetbrains.idea-ultimate
+    jetbrains.idea
     unstable.jetbrains.goland
     unstable.jetbrains.rust-rover
     jetbrains-toolbox

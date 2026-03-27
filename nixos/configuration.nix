@@ -48,7 +48,8 @@
   # enable swap on luks (TODO replace UUIDs with label)
   boot.initrd.luks.devices."luks-ad14a4a5-8740-4828-9b08-d80466e17192".device =
     "/dev/disk/by-uuid/ad14a4a5-8740-4828-9b08-d80466e17192";
-  boot.initrd.luks.devices."luks-ad14a4a5-8740-4828-9b08-d80466e17192".keyFile = "/crypto_keyfile.bin";
+  boot.initrd.luks.devices."luks-ad14a4a5-8740-4828-9b08-d80466e17192".keyFile =
+    "/crypto_keyfile.bin";
 
   networking.hostName = "jan-nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -139,7 +140,9 @@
 
   # This will add each flake input as a registry
   # To make nix3 commands consistent with your flake
-  nix.registry = (lib.mapAttrs (_: flake: { inherit flake; })) ((lib.filterAttrs (_: lib.isType "flake")) inputs);
+  nix.registry = (lib.mapAttrs (_: flake: { inherit flake; })) (
+    (lib.filterAttrs (_: lib.isType "flake")) inputs
+  );
 
   # This will additionally add your inputs to the system's legacy channels
   # Making legacy nix commands consistent as well, awesome!

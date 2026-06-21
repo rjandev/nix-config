@@ -2,16 +2,9 @@
 
 {
   services.gnome.gnome-keyring.enable = true;
-
   security.polkit.enable = true;
 
-  security.pam.services.gdm = {
-    enableGnomeKeyring = true;
-  };
-
-  security.pam.services.gdm-autologin.text = ''
-    auth       optional ${config.systemd.package}/lib/security/pam_systemd_loadkey.so
-  '';
+  security.pam.services.login.enableGnomeKeyring = true;
 
   environment.systemPackages = with pkgs; [ polkit_gnome ];
 

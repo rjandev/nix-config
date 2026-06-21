@@ -19,8 +19,8 @@
     ncdu
     playerctl
     vial
-    xfce.thunar
-    xfce.thunar-volman
+    thunar
+    thunar-volman
     bat
     unstable.sbctl
   ];

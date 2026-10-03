@@ -19,12 +19,7 @@
       };
     };
 
-    displayManager = {
-      gdm = {
-        autoLogin.delay = 6;
-        enable = true;
-      };
-    };
+    displayManager.gdm.enable = true;
     xserver = {
       enable = true;
       autorun = true;

@@ -38,6 +38,8 @@
     go
     kubectl
     kubernetes-helm
+    claude-code
+    codex
   ];
 
   programs.java = {

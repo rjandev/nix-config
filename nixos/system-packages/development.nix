@@ -12,6 +12,7 @@
           super.jdk
           super.jdk17
           super.jdk21
+          super.jdk25
         ];
       };
     })
@@ -26,6 +27,7 @@
     jdk
     jdk17
     jdk21
+    jdk25
     gradle
     yarn
     jetbrains.idea

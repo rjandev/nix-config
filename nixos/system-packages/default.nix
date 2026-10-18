@@ -6,6 +6,7 @@
     ./development.nix
     ./nixos.nix
     ./mounts.nix
+    ./games.nix
   ];
 
   services.udev.packages = [ pkgs.vial ];

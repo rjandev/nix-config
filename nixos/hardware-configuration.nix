@@ -23,6 +23,9 @@
   boot.initrd.kernelModules = [ ];
   boot.kernelModules = [ "kvm-intel" ];
   boot.extraModulePackages = [ ];
+  boot.extraModprobeConfig = ''
+    options kvm ignore_msrs=1
+  '';
 
   fileSystems."/" = {
     device = "/dev/disk/by-uuid/1bf3133d-cc95-49df-8d73-1696eb1b281d";

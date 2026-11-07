@@ -231,7 +231,6 @@ in
 
     # Customizing
     assign [class="Firefox"] browser
-    assign [class="Brave"] browser
     bindsym $mod+Shift+b move container to workspace $wsb
     bindsym $mod+b workspace browser; exec pidof $BROWSER >/dev/null || exec $BROWSER
 

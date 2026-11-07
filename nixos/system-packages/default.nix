@@ -13,7 +13,7 @@
 
   environment.systemPackages = with pkgs; [
     # #
-    brave
+    firefox
     alacritty
     htop
     signal-desktop
